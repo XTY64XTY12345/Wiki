@@ -14,5 +14,5 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@1.22.19"
 }
