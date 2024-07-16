@@ -8,7 +8,7 @@ actions:
     type: primary
 
   - text: 查看介绍
-    link: https://vuejs.press/guide/introduction.html
+    link: /Xdows-Security/get-started.html#简介
     type: secondary
 
 features:
