@@ -14,4 +14,4 @@
 
 没什么技术含量，就不细讲了😊
 
-[scan]:/settings-feature.html#功能设置
+[scan]:/Xdows-Security/settings-feature.html#功能设置
