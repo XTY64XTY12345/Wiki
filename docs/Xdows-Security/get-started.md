@@ -35,5 +35,5 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
 如果你实在不会，可以观看视频：
 
 <video width="640" height="400" controls autoplay>
-  <source src="install.mp4" type="video/mp4">
+  <source src="/video/install.mp4" type="video/mp4">
 </video>
