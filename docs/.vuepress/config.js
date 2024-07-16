@@ -26,7 +26,6 @@ export default defineUserConfig({
           "NTOS/Home",],},
       {text: "Winget++",prefix: "/",children: [
           "Winget-Plus/Home",],},
-      sidebarDepth:3
 ]，
   }),
   bundler: webpackBundler(),
