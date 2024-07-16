@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: '在这查看相关文档',
 
   theme: defaultTheme({
-    logo: '/icon/logo.ico',
+    logo: 'https://xty64xty12345.github.io/xdows安全/img/logo.ico',
 
     navbar: ['/', '/Xdows-Security/get-started'],
     sidebar: [
