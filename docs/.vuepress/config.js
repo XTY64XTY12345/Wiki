@@ -11,7 +11,7 @@ export default defineUserConfig({
   theme: hopeTheme({
     logo: 'https://xty64xty12345.github.io/xdows安全/img/logo.ico',
 
-    navbar: ['/', '/Xdows-Security/get-started'],
+    navbar: ['/', '/Xdows-Security/'],
     sidebar: [
       {text: "Xdows Security",prefix: "/",children: [
           "Xdows-Security/get-started",
@@ -26,7 +26,7 @@ export default defineUserConfig({
           "NTOS/Home",],},
       {text: "Winget++",prefix: "/",children: [
           "Winget-Plus/Home",],},
-],
+]，
   }),
   bundler: webpackBundler(),
 })
