@@ -30,10 +30,4 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
 不支持**Windows 7 以下**的版本。
 :::
 
-## 视频
-
-如果你实在不会，可以观看视频：
-
-<video width="640" height="400" controls autoplay>
-  <source src="/video/install.mp4" type="video/mp4">
-</video>
+[download]: https://xty64xty12345.github.io/xdows安全/download.html
