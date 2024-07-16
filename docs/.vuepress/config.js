@@ -1,4 +1,4 @@
-import { defaultTheme } from '@vuepress/theme-default'
+import { hopeTheme } from "vuepress-theme-hope";
 import { defineUserConfig } from 'vuepress/cli'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
@@ -8,7 +8,7 @@ export default defineUserConfig({
   title: 'Xdows Software',
   description: '在这查看相关文档',
 
-  theme: defaultTheme({
+  theme: hopeTheme({
     logo: 'https://xty64xty12345.github.io/xdows安全/img/logo.ico',
 
     navbar: ['/', '/Xdows-Security/get-started'],
