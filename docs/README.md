@@ -7,7 +7,7 @@ actions:
     link: /Xdows-Security/get-started.html
     type: primary
 
-  - text: 查看介绍
+  - text: 查看简介
     link: /Xdows-Security/get-started.html#简介
     type: secondary
 
