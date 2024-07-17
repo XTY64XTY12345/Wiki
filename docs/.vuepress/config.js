@@ -15,7 +15,11 @@ export default defineUserConfig({
         tabs: true,
       },
     },
-    navbar: ['/', '/Xdows-Security/get-started'],
+    navbar: [
+      {text: "主页",
+        link: "/README.md",
+        icon: "home",},
+        '/Xdows-Security/get-started'],
     sidebar: [
       {text: "Xdows Security",prefix: "/",children: [
           "Xdows-Security/get-started",
