@@ -21,7 +21,7 @@
 
 ### 高级
 
-Xdows Security UI 是基于 Html 技术构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
+Xdows Security UI 是基于 [Miniblink 内核构建][Miniblink]的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
 
 ::: tabs
 
@@ -40,7 +40,7 @@ Install\Bin\Xdows Tools
 :::
 
 ::: warning
-设置**不支持**定制，因为它不基于 Html
+设置**不支持**定制，因为它不基于 [Miniblink 内核构建][Miniblink]
 :::
 
 ::: tip
@@ -87,3 +87,4 @@ Install\Log\Run.txt
 :::
 
 [Pro]:/Xdows-Security/pro-version.html#区别
+[Miniblink]:https://miniblink.net/
