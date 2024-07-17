@@ -16,10 +16,9 @@ export default defineUserConfig({
       },
     },
     navbar: [
-      {text: "主页",
-        link: "/README.md",
-        icon: "home",},
-        '/Xdows-Security/get-started'],
+      { text: "主页", link: "/README.md", icon: "config" },
+      { text: "快速开始", link: "/Xdows-Security/get-started", icon: "config" },
+    ],
     sidebar: [
       {text: "Xdows Security",prefix: "/",children: [
           "Xdows-Security/get-started",
