@@ -20,10 +20,10 @@ features:
     details: 删除某些不需要的系统组件以提高运行速度的 Windows 系统。
   - title: Winget++
     details: 更加方便的使用Winget。
+  - title: Xdows Cloud
+    details: MD5 云端扫描引擎
   - title: Xdows Security Pro
     details: 更强大的 Xdows Security，暂未发布。
-  - title: 插件系统
-    details: 因安全问题已经停更。
 
 footer: MIT Licensed | Copyright © 2018-2024 Xdows Software
 ---
