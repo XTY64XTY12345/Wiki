@@ -16,7 +16,7 @@ export default defineUserConfig({
       },
     },
     navbar: [
-      { text: "主页", link: "/README.md", icon: "config" },
+      { text: "主页", link: "/README.md", icon: "home" },
       { text: "快速开始", link: "/Xdows-Security/get-started", icon: "config" },
     ],
     sidebar: [
@@ -32,7 +32,7 @@ export default defineUserConfig({
       {text: "NTOS 系统",prefix: "/",children: [
           "NTOS/Home",],},
       {text: "Winget++",prefix: "/",children: [
-          "Winget-Plus/Home",],},],
+          "Winget-Plus/Home"，],},],
   }),
   bundler: webpackBundler(),
 })
