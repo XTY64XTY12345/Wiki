@@ -27,12 +27,15 @@ export default defineUserConfig({
           "Xdows-Security/tools-feature",
           "Xdows-Security/settings-feature",
           "Xdows-Security/pro-version",],},
+      {text: "Xdows Cloud",prefix: "/",children: [
+          "Xdows Cloud/Home",],},
       {text: "文件中转站",prefix: "/",children: [
           "Files/Home",],},
       {text: "NTOS 系统",prefix: "/",children: [
           "NTOS/Home",],},
       {text: "Winget++",prefix: "/",children: [
-          "Winget-Plus/Home",],},],
+          "Winget-Plus/Home",],},
+    ],
   }),
   bundler: webpackBundler(),
 })
