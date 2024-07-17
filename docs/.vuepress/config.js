@@ -32,7 +32,7 @@ export default defineUserConfig({
       {text: "NTOS 系统",prefix: "/",children: [
           "NTOS/Home",],},
       {text: "Winget++",prefix: "/",children: [
-          "Winget-Plus/Home"，],},],
+          "Winget-Plus/Home",],},],
   }),
   bundler: webpackBundler(),
 })
