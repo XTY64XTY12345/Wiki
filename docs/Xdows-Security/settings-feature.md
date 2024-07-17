@@ -23,11 +23,22 @@
 
 Xdows Security UI 是基于 Html 技术构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
 
+::: tabs
+
+@tab 主页 Html
 ```ts
-主页 Html：              Install\Bin\Home
-杀毒 Html：              Install\Bin\Security
-Xdows Tools Html：       Install\Bin\Xdows Tools
+Install\Bin\Home
 ```
+@tab 杀毒 Html
+```ts
+Install\Bin\Security
+```
+@tab Xdows Tools Html
+```ts
+Install\Bin\Xdows Tools
+```
+:::
+
 ::: warning
 设置**不支持**定制，因为它不基于 Html
 :::
