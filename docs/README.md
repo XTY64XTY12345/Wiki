@@ -1,7 +1,7 @@
 ---
 home: true
 title: 主页
-heroImage: https://xty64xty12345.github.io/xdows安全/img/logo.png
+heroImage: /logo.png
 actions:
   - text: 快速开始
     link: /Xdows-Security/get-started.html
