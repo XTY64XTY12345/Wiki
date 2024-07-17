@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: '在这查看相关文档',
 
   theme: hopeTheme({
-    logo: 'https://xty64xty12345.github.io/xdows安全/img/logo.ico',
+    logo: "/logo.png",
     plugins: {
       mdEnhance: {
         tabs: true,
