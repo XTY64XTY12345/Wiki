@@ -28,7 +28,7 @@ export default defineUserConfig({
           "Xdows-Security/settings-feature",
           "Xdows-Security/pro-version",],},
       {text: "Xdows Cloud",prefix: "/",children: [
-          "Xdows-Cloud/Home",],},
+          "Xdows-Cloud/get-started",],},
       {text: "文件中转站",prefix: "/",children: [
           "Files/Home",],},
       {text: "NTOS 系统",prefix: "/",children: [
