@@ -1,4 +1,4 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { defaultTheme } from "@vuepress/theme-default";
 import { defineUserConfig } from 'vuepress/cli'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
@@ -28,7 +28,7 @@ export default defineUserConfig({
           "Xdows-Security/settings-feature",
           "Xdows-Security/pro-version",
           "Xdows-Security/update",
-],},
+]，},
       {text: "Xdows Cloud",prefix: "/",children: [
           "Xdows-Cloud/get-started",],},
       {text: "文件中转站",prefix: "/",children: [
