@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "@vuepress/bundler-webpack": "^2.0.0-rc.7",
-    "vuepress-theme-hope": "^2.0.0-rc.52",
+    "vuepress-theme-hope": "^2.0.0-rc.51",
     "sass-loader": "^15.0.0",
-    "vue": "^3.4.33",
+    "vue": "^3.4.0",
     "vuepress": "^2.0.0-rc.7"
   }
 }
