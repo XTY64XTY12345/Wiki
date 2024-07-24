@@ -1,4 +1,4 @@
-import { defaultTheme } from "@vuepress/theme-default";
+import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
@@ -8,13 +8,8 @@ export default defineUserConfig({
   title: 'Xdows Software',
   description: '在这查看相关文档',
 
-  theme: hopeTheme({
+  theme: defaultTheme({
     logo: "/logo.png",
-    plugins: {
-      mdEnhance: {
-        tabs: true,
-      },
-    },
     navbar: [
       { text: "主页", link: "/README.md", icon: "home" },
       { text: "快速开始", link: "/Xdows-Security/get-started", icon: "config" },
@@ -28,7 +23,7 @@ export default defineUserConfig({
           "Xdows-Security/settings-feature",
           "Xdows-Security/pro-version",
           "Xdows-Security/update",
-],},
+]，},
       {text: "Xdows Cloud",prefix: "/",children: [
           "Xdows-Cloud/get-started",],},
       {text: "文件中转站",prefix: "/",children: [
