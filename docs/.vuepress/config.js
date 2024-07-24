@@ -28,7 +28,7 @@ export default defineUserConfig({
           "Xdows-Security/settings-feature",
           "Xdows-Security/pro-version",
           "Xdows-Security/update",
-]，},
+],},
       {text: "Xdows Cloud",prefix: "/",children: [
           "Xdows-Cloud/get-started",],},
       {text: "文件中转站",prefix: "/",children: [
