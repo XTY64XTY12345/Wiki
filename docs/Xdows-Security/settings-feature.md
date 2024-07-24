@@ -27,21 +27,18 @@
 
 Xdows Security UI 是基于 [Miniblink 内核][Miniblink]构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
 
-::: tabs
-
-@tab 主页 Html
+主页 Html 位置
 ```ts
 Install\Bin\Home
 ```
-@tab 杀毒 Html
+杀毒 Html 位置
 ```ts
 Install\Bin\Security
 ```
-@tab Xdows Tools Html
+Xdows Tools Html 位置
 ```ts
 Install\Bin\Xdows Tools
 ```
-:::
 
 ::: warning
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink]构建的。
