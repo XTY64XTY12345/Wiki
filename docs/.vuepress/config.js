@@ -1,19 +1,12 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { webpackBundler } from '@vuepress/bundler-webpack'
-import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
   lang: 'zh-CN',
 
   title: 'Xdows Software',
   description: '在这查看相关文档',
-  plugins: [
-    mdEnhancePlugin({
-      // 添加选项卡支持
-      tabs: true,
-    }),
-  ],
   theme: defaultTheme({
     logo: "/logo.png",
     navbar: [
