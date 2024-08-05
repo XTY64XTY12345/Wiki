@@ -23,7 +23,23 @@
 
 侧边栏动画是控制侧边栏蓝色条的动画
 
-### 高级
+### 启动动画
+
+启动动画位置
+
+```ts
+Install\Bin\Home
+```
+
+### 进阶
+
+::: tip
+如果你运行着 Xdows Security Pro 并且想要更深度的定制，请联系作者 QQ：2966643247
+
+具体内容请查看[这里][Pro]
+:::
+
+#### 定制 Html
 
 Xdows Security UI 是基于 [Miniblink 内核][Miniblink]构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
 
@@ -44,11 +60,18 @@ Install\Bin\Xdows Tools
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink]构建的。
 :::
 
-::: tip
-如果你运行着 Xdows Security Pro 并且想要更深度的定制，请联系作者 QQ：2966643247
+#### 定制启动动画
 
-具体内容请查看[这里][Pro]
+::: warning
+这是**测试版**功能，需要**3.05及以后**的版本。
 :::
+
+启动动画位置
+```ts
+Install\Bin\Startup
+```
+
+可以修改该位置的图片来修改启动图片<del>包括原神启动</del>
 
 ## 主动防御
 
