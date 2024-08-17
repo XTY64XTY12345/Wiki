@@ -56,6 +56,15 @@ Xdows Tools Html 位置
 Install\Bin\Xdows Tools
 ```
 
+高级设置 Html 位置
+```ts
+Install\Bin\Xdows Tools
+```
+
+::: warning
+高级设置 UI 需要**3.06**及以上版本。
+:::
+
 ::: warning
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink]构建的。
 :::
@@ -100,6 +109,14 @@ Kolo 引擎**暂时无法使用**。
 ```ts
 Install\Log\Run.txt
 ```
+## 高级设置
+
+里面是 Xdows Security 正在测试的功能<del>包括 IU Song Part 1</del>
+
+::: tip
+3.06版本开始基于 [Miniblink 内核][Miniblink]构建。
+:::
+
 ## 关于软件
 
 记录了组件作者、鸣谢列表等数据
