@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: 在这查看相关文档
   image:
-    src: /logo.svg
+    src: https://xty64xty12345.github.io/logo.svg
     alt: Xdows Software
   actions:
     - theme: brand
