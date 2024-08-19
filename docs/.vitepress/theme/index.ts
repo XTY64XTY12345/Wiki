@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './blur.css'
 import './style.css'
+import './var.css'
 
 export default {
   extends: DefaultTheme,
