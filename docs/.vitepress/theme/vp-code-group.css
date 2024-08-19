@@ -22,6 +22,5 @@
 /* 代码组 */
 .vp-code-group {
     color: var(--vp-c-black-soft);
-    border-color: var(--vp-c-black);
     border-radius: 8px;
 }
