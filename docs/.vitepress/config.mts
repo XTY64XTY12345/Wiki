@@ -5,6 +5,12 @@ export default defineConfig({
   title: "Xdows Software",
   logo: '/logo.svg',
   description: "Xdows 软件的文档",
+  markdown: {
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
