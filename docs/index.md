@@ -18,6 +18,8 @@ hero:
 features:
   - title: Xdows Security
     details: 旨在保护用户设备以及扫描威胁的应用程序。
+    link: /Xdows-Security/get-started.html#下载
+    linkText: 查看下载安装教程
   - title: 文件中转站
     details: 快速移动、复制、保存文件的软件。
   - title: NTOS 系统
@@ -26,5 +28,9 @@ features:
     details: 更加方便的使用Winget。
   - title: Xdows Cloud
     details: MD5 云端扫描引擎
+    link: /Xdows-Cloud/get-started.html
+    linkText: 查看使用教程
   - title: Xdows Security Pro
     details: 更强大的 Xdows Security，暂未发布。
+    link: /Xdows-Security/pro-version.html
+    linkText: 查看相关内容
