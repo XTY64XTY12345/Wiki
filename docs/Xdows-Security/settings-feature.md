@@ -41,7 +41,7 @@ Install\Bin\Home
 
 #### 定制 Html
 
-Xdows Security UI 是基于 [Miniblink 内核][Miniblink]构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
+Xdows Security UI 是基于 [Miniblink 内核][Miniblink] 构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
 
 主页 Html 位置
 ```ts
@@ -62,7 +62,7 @@ Install\Bin\Xdows Tools
 ```
 
 ::: warning
-设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink]构建的。
+设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink] 构建的。
 :::
 
 #### 定制启动动画<Badge type="warning" text="3.05" />
@@ -107,7 +107,7 @@ Install\Log\Run.txt
 里面是 Xdows Security 正在测试的功能<del>包括 IU Song Part 1</del>
 
 ::: tip
-3.06版本开始基于 [Miniblink 内核][Miniblink]构建。
+3.06版本开始基于 [Miniblink 内核][Miniblink] 构建。
 :::
 
 ## 关于软件
