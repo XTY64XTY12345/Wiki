@@ -43,23 +43,24 @@ Install\Bin\Home
 
 Xdows Security UI 是基于 [Miniblink 内核][Miniblink] 构建的，所以你可以编辑相关文件来达到修改 UI 的效果。具体路径如下：
 
-主页 Html 位置
-```ts
+::: code-group
+
+```sh[主页 Html 位置]
 Install\Bin\Home
 ```
-杀毒 Html 位置
-```ts
+
+```sh[杀毒 Html 位置]
 Install\Bin\Security
 ```
-Xdows Tools Html 位置
-```ts
+
+```sh[Xdows Tools Html 位置]
 Install\Bin\Xdows Tools
 ```
 
-高级设置 Html 位置<Badge type="warning" text="3.06 Beta" />
-```ts
+```sh[高级设置 Html 位置<Badge type="warning" text="3.06 Beta" />]
 Install\Bin\Xdows Tools
 ```
+:::
 
 ::: warning
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink] 构建的。
