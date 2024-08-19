@@ -45,19 +45,19 @@ Xdows Security UI 是基于 [Miniblink 内核][Miniblink] 构建的，所以你�
 
 ::: code-group
 
-```sh[主页 Html 位置]
+```sh[主页 Html]
 Install\Bin\Home
 ```
 
-```sh[杀毒 Html 位置]
+```sh[杀毒 Html]
 Install\Bin\Security
 ```
 
-```sh[Xdows Tools Html 位置]
+```sh[Xdows Tools Html]
 Install\Bin\Xdows Tools
 ```
 
-```sh[高级设置 Html 位置<Badge type="warning" text="3.06 Beta" />]
+```sh[高级设置 Html<Badge type="warning" text="3.06 Beta" />]
 Install\Bin\Xdows Tools
 ```
 :::
