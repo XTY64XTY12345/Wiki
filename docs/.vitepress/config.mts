@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Xdows Software",
   logo: '/logo.svg',
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
   description: "Xdows 软件的文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
