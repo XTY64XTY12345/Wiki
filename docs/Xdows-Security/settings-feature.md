@@ -84,12 +84,12 @@ Install\Bin\Startup
 
 ## 功能设置
 
-这里列出了 Xdows Security 支持的所有扫描引擎，你可以自由开关。
+这里列出了 Xdows Security 支持的所有扫描引擎，你可以自由开关。（这是旧版本的截图，新版可能有改动）
 
 ![功能设置图片](png/set-4.png "功能设置图片")
 
 ::: tip
-Kolo 引擎**暂时无法使用**。
+FTQ 引擎**暂时无法使用**。
 :::
 
 ::: tip
