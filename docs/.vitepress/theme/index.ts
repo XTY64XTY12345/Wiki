@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import './blur.css'
 import './style.css'
 import './var.css'
+import './vp-code-group.css'
 
 export default {
   extends: DefaultTheme,
