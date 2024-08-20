@@ -23,8 +23,11 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
 
  - 1、打开压缩包
  - 2、解压到任意位置
- - 3、运行根目录的 *OOBE.exe* 并按提示操作
- - 4、运行根目录的 *Xdows Security.exe* 以运行程序
+ - 3、运行根目录的 *Xdows Security.exe* 以运行程序
+
+::: details
+如果你运行根目录带有 *OOBE.exe* 时需要在运行 *Xdows Security.exe* 前运行根目录的 *OOBE.exe* 并按提示操作
+:::
 
 ::: warning
 不支持**Windows 7 以下**的版本。
