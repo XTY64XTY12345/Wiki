@@ -42,6 +42,7 @@ export default defineConfig({
         dateStyle: 'short',
         timeStyle: 'medium'
       },
+  }
     sidebar: [
             {
               text: 'Xdows Security',
@@ -98,5 +99,4 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/XTY64XTY12345' }
     ]
-  }
 }})
