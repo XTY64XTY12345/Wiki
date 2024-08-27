@@ -19,9 +19,6 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: '',
-        items: [
             {
               text: 'Xdows Security',
               items: [
@@ -36,6 +33,7 @@ export default defineConfig({
                 { text: '代码授权', link: 'Xdows-Security/code-authorization' }
               ]
             },
+
             {
               text: 'Xdows Cloud',
               items: [
@@ -60,8 +58,6 @@ export default defineConfig({
                 { text: '暂无相关文档', link: 'Winget-Plus/Home' }
               ]
             },
-        ]
-      }
     ],
     footer: {
       message: '反馈群：749412281',
