@@ -41,7 +41,7 @@ export default defineConfig({
       formatOptions: {
         dateStyle: 'short',
         timeStyle: 'medium'
-      }
+      },
     sidebar: [
             {
               text: 'Xdows Security',
