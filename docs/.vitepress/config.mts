@@ -21,6 +21,7 @@ export default defineConfig({
     sidebar: [
             {
               text: 'Xdows Security',
+              collapsed: false,
               items: [
                 { text: '快速开始', link: 'Xdows-Security/get-started' },
                 { text: '主页功能', link: 'Xdows-Security/home-feature' },
@@ -36,24 +37,28 @@ export default defineConfig({
 
             {
               text: 'Xdows Cloud',
+              collapsed: true,
               items: [
                 { text: '快速开始', link: 'Xdows-Cloud/get-started' }
               ]
             },
             {
               text: '文件中转站',
+              collapsed: true,
               items: [
                 { text: '暂无相关文档', link: 'Files/Home' }
               ]
             },
             {
               text: 'NTOS 系统',
+              collapsed: true,
               items: [
                 { text: '暂无相关文档', link: 'NTOS/Home' }
               ]
             },
             {
               text: 'Winget++',
+              collapsed: true,
               items: [
                 { text: '暂无相关文档', link: 'Winget-Plus/Home' }
               ]
