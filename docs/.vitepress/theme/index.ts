@@ -11,11 +11,8 @@ import Layout from './Layout.vue'
 
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  // 使用注入插槽的包装组件覆盖 Layout
+  Layout: Layout
   enhanceApp({ app, router, siteData }) {
     // ...
   }
