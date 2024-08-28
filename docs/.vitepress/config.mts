@@ -5,6 +5,16 @@ export default defineConfig({
   title: "Xdows Software",
   logo: '/logo.svg',
   description: "Xdows 软件的文档",
+  head: [
+    // 改变title的图标
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/logo.svg',
+      },
+    ],
+  ],
   markdown: {
     image: {
       // 开启图片懒加载
