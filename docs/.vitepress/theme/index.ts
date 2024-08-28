@@ -6,6 +6,7 @@ import './blur.css'
 import './style.css'
 import './var.css'
 import './vp-code-group.css'
+import './custom-block.css'
 
 export default {
   extends: DefaultTheme,
