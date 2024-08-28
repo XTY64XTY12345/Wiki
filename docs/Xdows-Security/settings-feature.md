@@ -1,6 +1,6 @@
 # 设置功能
 
-::: tip
+::: tip 提示
 这篇文章中的 *install* 代表软件安装目录
 :::
 
@@ -62,7 +62,7 @@ Install\Bin\Xdows Tools
 ```
 :::
 
-::: warning
+::: warning 警告
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink] 构建的。
 :::
 
@@ -88,11 +88,7 @@ Install\Bin\Startup
 
 ![功能设置图片](png/set-4.png "功能设置图片")
 
-::: tip
-FTQ 引擎**暂时无法使用**。
-:::
-
-::: tip
+::: tip 提示
 如果你运行着 Xdows Security Pro 会有额外防护，具体内容请查看[这里][Pro]
 :::
 
@@ -107,7 +103,7 @@ Install\Log\Run.txt
 
 里面是 Xdows Security 正在测试的功能<del>包括 IU Song Part 1</del>
 
-::: tip
+::: tip 提示
 3.06版本开始基于 [Miniblink 内核][Miniblink] 构建。
 :::
 
