@@ -7,13 +7,13 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
 ## 下载
 
 点击 [这个链接][download] 打开官网并点击“下载”按钮。
-::: details
+::: details 详细信息
 如果下载缓慢，可以使用如下方案：
 
  - 使用 IDM 等下载器下载。
  - 点击第三个块的“查看”按钮使用其它渠道下载
  - 加入 QQ 群下载
-::: warning
+::: warning 警告
 方法2可能**不是最新版本**请**慎用**。
 :::
 
@@ -25,11 +25,11 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
  - 2、解压到任意位置
  - 3、运行根目录的 *Xdows Security.exe* 以运行程序
 
-::: details
+::: details 更多信息
 如果你运行根目录带有 *OOBE.exe* 时需要在运行 *Xdows Security.exe* 前运行根目录的 *OOBE.exe* 并按提示操作
 :::
 
-::: warning
+::: warning 警告
 不支持**Windows 7 以下**的版本。
 :::
 
