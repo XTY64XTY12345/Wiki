@@ -33,7 +33,7 @@ Install\Bin\Home
 
 ### 进阶
 
-::: tip
+::: tip 提示
 如果你运行着 Xdows Security Pro 并且想要更深度的定制，请联系作者 QQ：2966643247
 
 具体内容请查看[这里][Pro]
@@ -66,7 +66,7 @@ Install\Bin\Xdows Tools
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink] 构建的。
 :::
 
-#### 定制启动动画<Badge type="warning" text="3.05" />
+#### 定制启动动画<Badge type="tip" text="3.05" />
 
 
 启动动画位置
