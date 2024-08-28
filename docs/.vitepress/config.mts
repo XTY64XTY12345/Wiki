@@ -17,32 +17,7 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '快速开始', link: '/Xdows-Security/get-started.md' }
     ],
-    editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
-    },
 
-    footer: {
-      message: '基于 MIT 许可发布',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
-    },
-
-    docFooter: {
-      prev: '上一页',
-      next: '下一页'
-    },
-
-    outline: {
-      label: '页面导航'
-    },
-
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
-      },
-  }
     sidebar: [
             {
               text: 'Xdows Security',
