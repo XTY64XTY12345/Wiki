@@ -7,6 +7,7 @@ import './style.css'
 import './var.css'
 import './vp-code-group.css'
 import './custom-block.css'
+import Layout from './Layout.vue'
 
 export default {
   extends: DefaultTheme,
