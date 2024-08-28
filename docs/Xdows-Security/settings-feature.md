@@ -17,7 +17,7 @@
 关闭的样子如图所示
 
 ![个性化图片](png/set-2.png "个性化图片")
-（观察内容区的四角）
+（内容区的四角）
 
 背景模糊**只支持** Windows 11 系统，启用会隐藏窗口标题和关闭侧边栏动画
 
@@ -101,7 +101,7 @@ Install\Log\Run.txt
 ```
 ## 高级设置
 
-里面是 Xdows Security 正在测试的功能<del>包括 IU Song Part 1</del>
+里面是 Xdows Security 正在测试的功能<del>以及 IU Song Part 1</del>
 
 ::: tip 提示
 3.06版本开始基于 [Miniblink 内核][Miniblink] 构建。
@@ -111,7 +111,7 @@ Install\Log\Run.txt
 
 记录了组件作者、鸣谢列表等数据
 
-点击右上方 *反馈* 按钮以反馈问题
+点击右上方 `反馈` 按钮以反馈问题
 
 ::: tip 提示
 在这感谢所有贡献了开源代码的开发者！
