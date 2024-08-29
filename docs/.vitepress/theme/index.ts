@@ -7,14 +7,12 @@ import './style.css'
 import './var.css'
 import './vp-code-group.css'
 import './custom-block.css'
+import Linkcard from "./components/Linkcard.vue"
+
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
-  enhanceApp({ app, router, siteData }) {
-    // ...
+  enhanceApp({app}) { 
+    // 注册全局组件
+    app.component('Linkcard' , Linkcard)
   }
-} satisfies Theme
+}
