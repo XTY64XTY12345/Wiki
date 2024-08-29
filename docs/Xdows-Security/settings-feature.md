@@ -58,7 +58,7 @@ Install\Bin\Xdows Tools
 ```
 
 ```sh[高级设置 Html<Badge type="warning" text="3.06 Beta" />]
-Install\Bin\Xdows Tools
+Install\Bin\Settings\Advanced
 ```
 :::
 
