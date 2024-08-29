@@ -7,7 +7,7 @@ import './style.css'
 import './var.css'
 import './vp-code-group.css'
 import './custom-block.css'
-import Linkcard from "./Linkcard.vue"
+import Linkcard from "./components/Linkcard.vue"
 
 export default {
   extends: DefaultTheme,
