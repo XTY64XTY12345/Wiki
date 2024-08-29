@@ -8,14 +8,11 @@ import './var.css'
 import './vp-code-group.css'
 import './custom-block.css'
 import Linkcard from "./components/Linkcard.vue"
-import confetti from "./components/confetti.vue"
-
 
 export default {
   extends: DefaultTheme,
   enhanceApp({app}) { 
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
-    app.component('confetti' , confetti)
   }
 }
