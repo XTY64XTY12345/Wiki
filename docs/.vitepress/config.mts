@@ -40,7 +40,6 @@ export default defineConfig({
                 { text: '杀毒功能', link: 'Xdows-Security/security-feature' },
                 { text: 'Xdows Tools', link: 'Xdows-Security/tools-feature' },
                 { text: '设置功能', link: 'Xdows-Security/settings-feature' },
-                { text: 'Xdows Tools', link: 'Xdows-Security/tools-feature' },
                 { text: 'Pro 版本计划', link: 'Xdows-Security/pro-version' },
                 { text: '更新日志', link: 'Xdows-Security/update' },
                 { text: '代码授权', link: 'Xdows-Security/code-authorization' }
