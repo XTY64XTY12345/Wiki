@@ -6,7 +6,10 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
 
 ## 下载
 
-点击 [这个链接][download] 打开官网并点击“下载”按钮。
+点击下面的卡片打开官网并点击“下载”按钮。
+
+<Linkcard url="https://xty64xty12345.github.io/xdows安全/download.html" title="下载 Xdows Security" description="https://xty64xty12345.github.io/xdows安全/download.html" logo="/logo.svg"/>
+
 ::: details 详细信息
 如果下载缓慢，可以使用如下方案：
 
@@ -34,5 +37,4 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
 :::
 
 
-[download]: https://xty64xty12345.github.io/xdows安全/download.html
 [help]: /Xdows-Security/help
