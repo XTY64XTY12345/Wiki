@@ -3,15 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  markdown: { 
-    container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '信息',
-      detailsLabel: '详细信息'
-    }
-  },
+
   title: "Xdows Software",
   logo: '/logo.svg',
   description: "Xdows 软件的文档",
@@ -30,6 +22,13 @@ export default defineConfig({
       // 开启图片懒加载
       lazyLoading: true
     },
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
   },
   themeConfig: {
     search: {
