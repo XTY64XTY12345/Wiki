@@ -29,7 +29,7 @@ Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1
  - 3、运行根目录的 `Xdows Security.exe` 以运行程序
 
 ::: details 更多信息
-如果你运行根目录带有 `OOBE.exe` 时需要在运行 `Xdows Security.exe` 前运行根目录的 `OOBE.exe` 并按提示操作
+如果你运行的版本根目录带有 `OOBE.exe` 时需要在运行 `Xdows Security.exe` 前运行根目录的 `OOBE.exe` 并按提示操作
 :::
 
 ::: warning 警告
