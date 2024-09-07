@@ -11,7 +11,7 @@ export default defineConfig({
       infoLabel: '信息',
       detailsLabel: '详细信息'
     }
-  }
+  },
   title: "Xdows Software",
   logo: '/logo.svg',
   description: "Xdows 软件的文档",
