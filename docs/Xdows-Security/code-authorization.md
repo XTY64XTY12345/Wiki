@@ -9,10 +9,12 @@
 | XIGUASystem          |西瓜杀毒软件      |进程保护、本地库引擎、文件防护                        |作者QQ群：837598454 |还在更新 |
 | Windows10电脑的cmd   |创世杀毒软件    |除了进程保护的所有主动防御、文件粉碎、系统修复、MD5病毒库|[官网][chuangshi]|还在更新 |
 | KuaiLeTianShi        |宇晨电脑管家   |部分主动防御、代码                                    |作者QQ群：760015140 |还在更新 |
-| HKTS杀毒官方         |HKTS杀毒软件    |主动防御、部分代码                                      |[官网][hkts] |还在更新 |
+| 启科杀毒官方         |启科杀毒软件    |文件和注册表防护                                      |[官网][hkts] |还在更新 |
+| HKTS杀毒官方         |HKTS杀毒软件    |主动防御、部分代码                                      |作者QQ群：770693133|
 | 幻影俱乐部           |西格安全软件   |部分软件代码                                          |[123云盘][xige]    |停止更新 |
 
 
 [chuangshi]:https://chuangshicloud.wzwxz15.store/chuangshi%20antivirus/
 [hkts]:http://hkts.czkhost.coms.run/
+[qike]:http://hkts.czkhost.coms.run/
 [xige]:https://www.123pan.com/s/1y1qVv-RKcY
