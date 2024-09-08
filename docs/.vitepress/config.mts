@@ -30,6 +30,9 @@ export default defineConfig({
       detailsLabel: '详细信息'
     }
   },
+  sitemap: {
+    hostname: 'https://xty64xty.netlify.app',
+  }
   themeConfig: {
     search: {
       provider: 'local',
