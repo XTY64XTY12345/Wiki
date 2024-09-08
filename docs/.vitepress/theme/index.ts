@@ -7,6 +7,7 @@ import './style.css'
 import './var.css'
 import './vp-code-group.css'
 import './custom-block.css'
+import './blockquote.css'
 import Linkcard from "./components/Linkcard.vue"
 
 export default {
