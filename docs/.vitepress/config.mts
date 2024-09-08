@@ -32,7 +32,7 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://xty64xty.netlify.app',
-  }
+  },
   themeConfig: {
     search: {
       provider: 'local',
