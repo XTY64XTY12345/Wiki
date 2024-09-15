@@ -67,6 +67,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '快速开始', link: 'Xdows-Security/get-started' },
+                { text: '系统要求', link: 'Xdows-Security/system' },
                 { text: '主页功能', link: 'Xdows-Security/home-feature' },
                 { text: '杀毒功能', link: 'Xdows-Security/security-feature' },
                 { text: 'Xdows Tools', link: 'Xdows-Security/tools-feature' },
