@@ -39,7 +39,6 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          zh: {
             translations: {
               button: {
                 buttonText: '搜索',
@@ -54,7 +53,6 @@ export default defineConfig({
                 },
               },
             },
-          },
         },
       },
     },
