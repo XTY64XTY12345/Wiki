@@ -16,6 +16,6 @@ export default {
   enhanceApp({app}) { 
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
-  }
-  Layout: MyLayout, 
+  },
+  Layout: MyLayout
 }
