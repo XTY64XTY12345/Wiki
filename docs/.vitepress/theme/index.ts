@@ -9,7 +9,6 @@ import './vp-code-group.css'
 import './custom-block.css'
 import './blockquote.css'
 import Linkcard from "./components/Linkcard.vue"
-import MyLayout from './components/MyLayout.vue'
 
 export default {
   extends: DefaultTheme,
@@ -17,5 +16,4 @@ export default {
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
   },
-  Layout: MyLayout
 }
