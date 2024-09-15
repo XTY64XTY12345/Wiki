@@ -6,7 +6,7 @@ Xdows Security 的3.04-3.05版本其文件已经被蠕虫病毒感染，现在�
 
 ## 简介
 
-Xdows Security 是哔哩哔哩UP主 XTY64XTY 制作的一款安全软件，在 1.00 至 3.XX **仅支持** Windows 7 及以上的系统。
+Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件。
 
 ## 下载
 
