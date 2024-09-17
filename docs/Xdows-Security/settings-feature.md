@@ -98,6 +98,27 @@ Install\Bin\Startup
 ```ts
 Install\Log\Run.txt
 ```
+
+## 隔离信任<Badge type="warning" text="3.06 Beta" />
+
+在之前的版本中，扫描到病毒都是**直接删除**的。现在，Xdows Security 将会先尝试隔离文件，如果失败再尝试删除文件
+
+![隔离信任模块](png/set-6.png "隔离信任模块")
+
+### 信任区
+
+单击 `添加` 以修改信任区
+
+如果文件已经在信任区，将会从信任区删除这个文件
+
+### 隔离区
+
+隔离区**不是**实时刷新的
+
+切换”设置选择夹“将会刷新隔离区
+
+单击 `恢复` 以从隔离区恢复文件
+
 ## 高级设置
 
 里面是 Xdows Security 正在测试的功能<del>以及 IU Song Part 1</del>
