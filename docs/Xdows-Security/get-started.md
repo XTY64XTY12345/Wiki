@@ -8,6 +8,12 @@ Xdows Security 的3.04-3.05版本其文件已经被蠕虫病毒感染，现在�
 
 Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件。
 
+## 条件
+
+Xdows Security 不会支持所有硬件/操作系统，因为这可能会导致很多问题。
+
+您必须**保证**您的设备**符合** [要求][sys]，不然 Xdows Security **不会**正常运行。
+
 ## 下载
 
 点击下面的卡片打开官网并点击“下载”按钮。
@@ -42,3 +48,4 @@ Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件�
 
 
 [help]: /Xdows-Security/help
+[sys]: /Xdows-Security/system
