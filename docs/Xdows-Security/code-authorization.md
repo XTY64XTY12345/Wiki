@@ -14,6 +14,6 @@
 | 幻影俱乐部           |西格安全软件   |部分软件代码                                          |[123云盘][xige]    |停止更新 |
 
 
-[chuangshi]:https://chuangshicloud.wzwxz15.store/chuangshi%20antivirus/
+[chuangshi]:https://chuangshicloud.wzwxz15.store/
 [hkts]:http://hkts.czkhost.coms.run/
 [xige]:https://www.123pan.com/s/1y1qVv-RKcY
