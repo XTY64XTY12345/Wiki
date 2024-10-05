@@ -76,6 +76,7 @@ export default defineConfig({
                 { text: '常见问题', link: 'Xdows-Security/help' },
                 { text: '更新日志', link: 'Xdows-Security/update' },
                 { text: '代码授权', link: 'Xdows-Security/code-authorization' }
+                { text: '开源说明', link: 'Xdows-Security/Open-Source' },
               ]
             },
 
