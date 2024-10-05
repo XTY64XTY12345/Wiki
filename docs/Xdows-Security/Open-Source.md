@@ -10,4 +10,4 @@ Xdows Securtiy 使用的项目都会添加到关于页面
 
 如果您允许开源，我们将把使用您项目的源代码也进行开源，如果您不允许，我们也会通过包装DLL等方式不进行开源
 
-[Code]:https://xty64xty.netlify.app/Xdows-Security/code-authorization.html
+[Code]:/Xdows-Security/code-authorization.html
