@@ -27,8 +27,8 @@ export default {
   },
   
   setup() {
-    // 图片放大
     const route = useRoute();
+    // 图片放大
     const initZoom = () => {
       // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
       mediumZoom('.main img', { background: 'var(--vp-c-bg)' }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
@@ -43,7 +43,6 @@ export default {
 
     // giscus配置
     const { frontmatter } = useData();
-    const route = useRoute();
     giscusTalk({
       repo: 'XTY64XTY12345/Wiki', //仓库
       repoId: 'R_kgDOMWWaig', //仓库ID
