@@ -1,10 +1,31 @@
-# Pro 版本计划
+# 版本计划
 
-## 简介
+## N 版本
+
+### 简介
+
+Xdows Security N 是 Xdows Security 的轻量版。
+
+### 区别
+
+Xdows Security N 对比标准版会有如下改动。
+
+ - 使用原生组件
+ - 缩减扫描功能
+ - 降低软件占用
+ - 仅必要的 Xdows Tools 组件
+
+### 获取
+
+Xdows Security N 还没有发布，关注 QQ 群以获取相关进展。
+
+## Pro 版本
+
+### 简介
 
 Xdows Security Pro 是 Xdows Security 的增强版。
 
-## 区别
+### 区别
 
 Xdows Security Pro 对比标准版会有如下改动。
 
@@ -16,6 +37,6 @@ Xdows Security Pro 对比标准版会有如下改动。
  - 驱动级进程
  - 系统奔溃（蓝屏）数据收集
 
-## 获取
+### 获取
 
 Xdows Security Pro 还没有发布，关注 QQ 群以获取相关进展。
