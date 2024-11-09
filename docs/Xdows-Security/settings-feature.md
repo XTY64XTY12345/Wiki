@@ -35,7 +35,7 @@ Install\Bin\Home
 ::: tip 提示
 如果你运行着 Xdows Security Pro 并且想要更深度的定制，请联系作者
 
-具体内容请查看[这里][Pro]
+具体内容请查看[这里][Pro-Version]
 :::
 
 #### 定制 Html
@@ -63,6 +63,12 @@ Install\Bin\Settings\Advanced
 
 ::: warning 警告
 设置**不支持**定制，因为它不是基于 [Miniblink 内核][Miniblink] 构建的。
+:::
+
+::: tip 提示
+如果你运行着 Xdows Security N ，因为纯组件的原因，无法进行定制
+
+具体内容请查看[这里][N-Version]
 :::
 
 #### 定制启动动画<Badge type="tip" text="3.05" />
@@ -137,5 +143,6 @@ Install\Log\Run.txt
 在这感谢所有贡献了开源代码的开发者！
 :::
 
-[Pro]:/Xdows-Security/pro-version.html#区别
+[N-Version]:/Xdows-Security/version.html#N-版本
+[Pro-Version]:/Xdows-Security/version.html#pro-版本
 [Miniblink]:https://miniblink.net/
