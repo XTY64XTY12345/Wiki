@@ -13,6 +13,10 @@ import Linkcard from "./components/Linkcard.vue"
 // giscus
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
+// 图片放大
+import mediumZoom from 'medium-zoom';
+import { onMounted, watch, nextTick } from 'vue';
+import { useRoute } from 'vitepress';
 
 export default {
   extends: DefaultTheme,
@@ -23,11 +27,23 @@ export default {
   },
   
   setup() {
-    // Get frontmatter and route
+    // 图片放大
+    const route = useRoute();
+    const initZoom = () => {
+      // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
+      mediumZoom('.main img', { background: 'var(--vp-c-bg)' }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
+    };
+    onMounted(() => {
+      initZoom();
+    });
+    watch(
+      () => route.path,
+      () => nextTick(() => initZoom())
+
+
+    // giscus配置
     const { frontmatter } = useData();
     const route = useRoute();
-        
-    // giscus配置
     giscusTalk({
       repo: 'XTY64XTY12345/Wiki', //仓库
       repoId: 'R_kgDOMWWaig', //仓库ID
