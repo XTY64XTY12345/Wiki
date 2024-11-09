@@ -97,6 +97,10 @@ Install\Bin\Startup
 如果你运行着 Xdows Security Pro 会有额外防护，具体内容请查看[这里][Pro]
 :::
 
+::: tip 提示
+如果你运行着 Xdows Security 的旧版本，请注意某些引擎已经无法使用
+:::
+
 ## 运行日志
 
 如果 Xdows Security 崩溃了，这些日志可能对我们有帮助，你可以在 QQ 群反馈并带上日志文件，路径如下：
