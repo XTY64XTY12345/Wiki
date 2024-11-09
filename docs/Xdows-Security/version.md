@@ -4,7 +4,7 @@
 
 ### 简介
 
-Xdows Security N 是 Xdows Security 的轻量版。
+Xdows Security N 是 Xdows Security 的火山重构版。
 
 ### 区别
 
@@ -13,6 +13,7 @@ Xdows Security N 对比标准版会有如下改动。
  - 使用原生组件
  - 缩减扫描功能
  - 降低软件占用
+ - x64 程序
  - 仅必要的 Xdows Tools 组件
 
 ### 获取
