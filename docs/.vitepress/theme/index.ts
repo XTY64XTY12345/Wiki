@@ -39,7 +39,7 @@ export default {
     watch(
       () => route.path,
       () => nextTick(() => initZoom())
-
+    );
 
     // giscus配置
     const { frontmatter } = useData();
