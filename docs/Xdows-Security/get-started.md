@@ -46,6 +46,16 @@ Xdows Security 不会支持所有硬件/操作系统，因为这可能会导致�
 如果遇到问题，可以看看 [这里][help] 尝试自己解决。
 :::
 
+## 开源
+
+Xdows Security 现已全部开源，具体开源地址如下：
+
+ - 本体（主程序防护等）：https://github.com/XTY64XTY12345/Xdows-Security
+ - 扫描引擎：https://github.com/XTY64XTY12345/Xdows-Security-Scan
+ - 信息框：https://github.com/XTY64XTY12345/CatUIEPL-Infobox
+
+如果还有组件没开源请联系我们进行开源
+
 
 [help]: /Xdows-Security/help
 [sys]: /Xdows-Security/system
