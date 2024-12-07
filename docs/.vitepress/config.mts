@@ -66,7 +66,7 @@ export default defineConfig({
 
     sidebar: [
             {
-              text: 'Xdows Security',
+              text: 'Xdows Security 3.0',
               collapsed: false,
               items: [
                 { text: '快速开始', link: 'Xdows-Security/get-started' },
@@ -82,7 +82,13 @@ export default defineConfig({
                 { text: '开源说明', link: 'Xdows-Security/Open-Source' },
               ]
             },
-
+            {
+              text: 'Xdows Security 4.0',
+              collapsed: true,
+              items: [
+                { text: '快速开始', link: 'Xdows-Security-4/get-started' },
+              ]
+            },
             {
               text: 'Xdows Cloud',
               collapsed: true,
