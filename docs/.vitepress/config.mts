@@ -87,6 +87,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '快速开始', link: 'Xdows-Security-4/get-started' },
+                { text: 'Xdows Tools', link: 'Xdows-Security-4/xdows-tools' },
               ]
             },
             {
