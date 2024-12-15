@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import timeline from "vitepress-markdown-timeline"; 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
@@ -21,6 +21,9 @@ export default defineConfig({
     image: {
       // 开启图片懒加载
       lazyLoading: true
+    },
+    config: (md) => {
+      md.use(timeline);
     },
     container: {
       tipLabel: '提示',
