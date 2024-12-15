@@ -17,6 +17,8 @@ import { useData, useRoute } from 'vitepress';
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
+// 时间线
+import "vitepress-markdown-timeline/dist/theme/index.css";
 
 export default {
   extends: DefaultTheme,
