@@ -91,6 +91,7 @@ export default defineConfig({
               items: [
                 { text: '快速开始', link: 'Xdows-Security-4/get-started' },
                 { text: 'Xdows Tools', link: 'Xdows-Security-4/xdows-tools' },
+                { text: '更新日志', link: 'Xdows-Security-4/update' },
               ]
             },
             {
