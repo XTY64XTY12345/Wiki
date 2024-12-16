@@ -32,5 +32,5 @@ features:
     linkText: 查看使用教程
   - title: Xdows Security Pro
     details: 更强大的 Xdows Security，暂未发布。
-    link: /Xdows-Security/pro-version.html
+    link: /Xdows-Security/version.html
     linkText: 查看相关内容
