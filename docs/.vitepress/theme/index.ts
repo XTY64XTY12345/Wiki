@@ -29,13 +29,13 @@ export default {
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
       if (inBrowser) {
-            Progress.configure({ showSpinner: false })
-            router.onBeforeRouteChange = () => {
-            NProgress.start() // 开始进度条
+        Progress.configure({ showSpinner: false })
+        router.onBeforeRouteChange = () => {
+        NProgress.start() // 开始进度条
       }
-            router.onAfterRouteChanged = () => {
-            busuanzi.fetch()
-            NProgress.done() // 停止进度条
+        router.onAfterRouteChanged = () => {
+        busuanzi.fetch()
+        NProgress.done() // 停止进度条
       }
 }
   },
