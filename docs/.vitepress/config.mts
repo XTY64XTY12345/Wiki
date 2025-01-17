@@ -6,7 +6,7 @@ export default defineConfig({
 
   title: "Xdows Software",
   logo: '/logo.svg',
-  description: "Xdows 软件的文档",
+  description: "Xdows Software",
   head: [
     // 改变title的图标
     [
