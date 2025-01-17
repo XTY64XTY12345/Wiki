@@ -41,8 +41,9 @@ export default {
         NProgress.done() // 停止进度条
       }
     }
+     */
   },
-  */
+ 
   setup() {
     const route = useRoute();
     // 图片放大
