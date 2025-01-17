@@ -1,5 +1,11 @@
 # 快速开始
 
+::: tip
+Xdows Security 4.0 开始制作，该版本**进入维护阶段**
+
+[查看进度](https://xty64xty.netlify.app/Xdows-Security-4/get-started.html)
+:::
+
 ::: danger 危险
 Xdows Security 的3.04-3.05版本其文件已经被蠕虫病毒感染，现在在下载页面直接下载的是**3.03**版本，**请勿**在 `更多下载` 页面下载3.04-3.05版本。
 :::
