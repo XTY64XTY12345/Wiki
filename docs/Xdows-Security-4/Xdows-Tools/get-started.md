@@ -1,6 +1,6 @@
 # Xdows Tools
 
-![XdowsToolsUI](./PNG/XdowsToolsUI.png)
+![XdowsToolsUI](./../PNG/XdowsToolsUI.png)
 
 （图片仅供参考）
 
