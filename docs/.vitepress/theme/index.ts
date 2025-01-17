@@ -30,7 +30,8 @@ export default {
   enhanceApp({app}) { 
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
-      if (inBrowser) {
+    /*
+    if (inBrowser) {
         Progress.configure({ showSpinner: false })
         router.onBeforeRouteChange = () => {
         NProgress.start() // 开始进度条
@@ -39,9 +40,9 @@ export default {
         busuanzi.fetch()
         NProgress.done() // 停止进度条
       }
-}
+    }
   },
-  
+  */
   setup() {
     const route = useRoute();
     // 图片放大
