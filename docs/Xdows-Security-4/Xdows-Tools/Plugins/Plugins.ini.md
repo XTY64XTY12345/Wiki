@@ -39,7 +39,7 @@ TabData=\Plugins\{Name}\Files\Tab.html
 // 该值初始目录为软件的运行目录
 [Dll]
 // Dll 调用相关设置
-DllData=\Plugins\{Name}\Files\Dll.dll
+DllData=\Plugins\{Name}\Files\Main.dll
 // 该值为 WebUI 发送请求时所调用的
 // 该值需填入路径且路径必须有效否则该值无效
 // 该值初始目录为软件的运行目录
