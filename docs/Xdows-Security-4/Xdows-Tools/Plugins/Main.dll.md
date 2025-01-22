@@ -25,9 +25,13 @@ Main.dll 的文件名和位置均可自定义
 
 ### SetUIHtml
 
+只有在 [这个文件](./Plugins.ini.md#%E4%BD%BF%E7%94%A8)中的 `Tab`-`UseTab` 的值为1时才成立
+
 该函数定义在 Xdows Tools 中载入的 Html 文件
 
 要求该函数返回 Text 型数据，否则程序崩溃
+
+忽略（返回空文本）将会使用 [这个文件](./Plugins.ini.md#%E4%BD%BF%E7%94%A8)中的 `Tab`-`TabData` 来代替
 
 返回数据为所在 Xdows Tools 中载入的 Html 文件
 
@@ -39,9 +43,13 @@ Main.dll 的文件名和位置均可自定义
 
 （示例：图中红框部分即为该DLL返回的内容显示效果）
 
+只有在 [这个文件](./Plugins.ini.md#%E4%BD%BF%E7%94%A8)中的 `Tab`-`UseTab` 的值为1时才成立
+
 该函数定义在 Xdows Tools 中显示的标题
 
 要求该函数返回 Text 型数据，否则程序崩溃
+
+忽略（返回空文本）将会使用 [这个文件](./Plugins.ini.md#%E4%BD%BF%E7%94%A8)中的 `Tab`-`TabName` 来代替
 
 返回数据为所在 Xdows Tools 中显示的标题
 
