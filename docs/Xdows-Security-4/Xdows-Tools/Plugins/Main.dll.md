@@ -10,6 +10,12 @@ Main.dll 的文件名和位置均可自定义
 
 你可以在[这个文件](./Plugins.ini.md#%E4%BD%BF%E7%94%A8)中的 `Dll`-`DllData` 来自定义
 
+## 注意
+
+在编译DLL时尽量选择目标 Xdows Security 的架构（一般为 x86 架构）
+
+不同的架构可能会导致运行**效率慢**或**崩溃**问题
+
 ## 使用
 > [!IMPORTANT]
 > 以下DLL程序中的必须存在
