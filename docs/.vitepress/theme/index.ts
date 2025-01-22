@@ -26,15 +26,15 @@ import 'nprogress-v2/dist/index.css' // 进度条样式
 export default {
   extends: DefaultTheme,
   
-  enhanceApp({app,router}) { 
+  enhanceApp({app , router }) { 
     // 注册全局组件
-    app.component('Linkcard' , Linkcard)
-    
-    NProgress.configure({ showSpinner: false })
-    router.onBeforeRouteChange = () => {
-      NProgress.start() // 开始进度条
-    }
-    NProgress.done() // 停止进度条
+    app.component('Linkcard' , Linkcard) //链接卡片
+    // 不蒜子
+      NProgress.configure({ showSpinner: false })
+      router.onBeforeRouteChange = () => {
+        NProgress.start() // 开始进度条
+      }
+      NProgress.done() // 停止进度条
   },
  
   setup() {
