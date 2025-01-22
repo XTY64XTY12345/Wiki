@@ -24,6 +24,14 @@ export default defineConfig({
     },
     config: (md) => {
       // 创建 markdown-it 插件
+      md.use(taskLists, {
+        disabled: true,
+        divWrap: false,
+        divClass: 'checkbox',
+        idPrefix: 'cbx_',
+        ulClass: 'task-list',
+        liClass: 'task-list-item',
+      })
       md.use((md) => {
         md.use(timeline);
         const defaultRender = md.render
