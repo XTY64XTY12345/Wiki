@@ -20,9 +20,9 @@ import { useRoute } from 'vitepress';
 // 时间线
 import "vitepress-markdown-timeline/dist/theme/index.css";
 
-//import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
-//import 'nprogress-v2/dist/index.css' // 进度条样式
-//import { inBrowser } from 'vitepress'
+import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
+import 'nprogress-v2/dist/index.css' // 进度条样式
+import { inBrowser } from 'vitepress'
 
 export default {
   extends: DefaultTheme,
@@ -30,18 +30,17 @@ export default {
   enhanceApp({app}) { 
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
-    /*
+    
     if (inBrowser) {
         Progress.configure({ showSpinner: false })
         router.onBeforeRouteChange = () => {
         NProgress.start() // 开始进度条
       }
         router.onAfterRouteChanged = () => {
-        busuanzi.fetch()
         NProgress.done() // 停止进度条
       }
     }
-     */
+    
   },
  
   setup() {
