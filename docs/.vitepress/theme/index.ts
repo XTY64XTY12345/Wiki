@@ -30,11 +30,11 @@ export default {
     // 注册全局组件
     app.component('Linkcard' , Linkcard)
     
-        Progress.configure({ showSpinner: false })
-        router.onBeforeRouteChange = () => {
-        NProgress.start() // 开始进度条
-        }
-        NProgress.done() // 停止进度条
+    NProgress.configure({ showSpinner: false })
+    router.onBeforeRouteChange = () => {
+    NProgress.start() // 开始进度条
+    }
+    NProgress.done() // 停止进度条
   },
  
   setup() {
