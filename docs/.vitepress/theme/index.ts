@@ -26,7 +26,7 @@ import 'nprogress-v2/dist/index.css' // 进度条样式
 export default {
   extends: DefaultTheme,
   
-  enhanceApp({app , router }) { 
+  enhanceApp({app }) { 
     // 注册全局组件
     app.component('Linkcard' , Linkcard) //链接卡片
       NProgress.configure({ showSpinner: false })
