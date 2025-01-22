@@ -27,5 +27,16 @@ Main.dll 的文件名和位置均可自定义
 
 该函数没有参数，如有参数则程序崩溃
 
+### SetUITitle
 
+![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll.md.png)
 
+（示例：图中红框部分即为该DLL返回的内容显示效果）
+
+该函数定义在 Xdows Tools 中显示的标题
+
+要求该函数返回 Text 型数据，否则程序崩溃
+
+返回数据为所在 Xdows Tools 中显示的标题
+
+该函数没有参数，如有参数则程序崩溃
