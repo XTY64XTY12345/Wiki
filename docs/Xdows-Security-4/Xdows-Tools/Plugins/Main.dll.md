@@ -64,7 +64,6 @@ Main.dll 的文件名和位置均可自定义
 你可以使用 Http 访问来调用DLL
 
 ``` js
-
 const Http = new XMLHttpRequest();
 Http.open("GET", '/Function/插件名-调用函数/?参数1=参数内容&参数2=参数内容',false);
 Http.send();
