@@ -16,25 +16,9 @@
 // 常量：
 // {Name} 当前插件所在目录名
 
-[Tab]
-// * Xdows Tools 菜单栏相关设置
-UseTab=1
-// $ 是否加入 Xdows Tools 菜单栏
-// 启用 代表使用 Xdows Tools 菜单栏
-// 禁用 代表不开启 Xdows Tools 菜单栏，后续该节所有内容无效
-TabName=Demo
-// * 该值为 Xdows Tools 菜单栏名称
-// 当 UseTab=1 与 DLL 文件选择忽略时才有效且必须填入该项否则该值无效
-// 优先级小于DLL设置
-TabData=\Plugins\{Name}\Files\Tab.html
-// * 该值为 Xdows Tools 菜单数据文件位置
-// 当 UseTab=1 与 DLL 文件选择忽略时才有效且必须填入该项否则该值与 UseTab=1 无效
-// 当 DLL 文件选择忽略时该值需填入路径且路径必须有效否则 UseTab=1 无效
-// 该值初始目录为软件的运行目录
-// 优先级小于DLL设置
 [Dll]
 // Dll 调用相关设置
-DllData=\Plugins\{Name}\Files\Main.dll
+DllData=\Plugins\{Name}\Files\Dll.dll
 // 该值为 WebUI 发送请求时所调用的
 // 该值需填入路径且路径必须有效否则该值无效
 // 该值初始目录为软件的运行目录
