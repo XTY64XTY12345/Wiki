@@ -31,7 +31,7 @@ Main.dll 通常是在 插件名\Files\Main.dll 文件
 
 ### SetUITitle
 
-![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll.md.png)
+![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-1.md.png)
 
 （示例：图中红框部分即为该DLL返回的内容显示效果）
 
