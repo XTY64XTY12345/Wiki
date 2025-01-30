@@ -128,7 +128,6 @@ export default defineConfig({
                       collapsed: true,
                       items: [
                               { text: '快速开始', link: 'Xdows-Security-4/Xdows-Tools/Plugins/get-started.md' },
-                              { text: 'Plugins.ini', link: 'Xdows-Security-4/Xdows-Tools/Plugins/Plugins.ini.md' },
                               { text: 'Main.dll', link: 'Xdows-Security-4/Xdows-Tools/Plugins/Main.dll.md' },
                       ]
                     },
