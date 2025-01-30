@@ -51,6 +51,10 @@ Main.dll 通常是在 插件名\Files\Main.dll 文件
 
 ### GetInfo
 
+![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-2.md.png)
+
+（示例：图中红框部分即为该DLL返回的内容显示效果）
+
 |    名称   |  返回类型 |注明                                                    |
 | :-------- | :------- | :------------------------------------------------------ |
 | GetInfo   |    Text  |该函数定义在 Xdows Tools 功能主页 显示的简介|
