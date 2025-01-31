@@ -11,6 +11,7 @@
 - &emsp;Xdows Tools 插件：
 - &emsp;&emsp;进程管理：信息框使用 TaskDialog 实现
 - &emsp;&emsp;文件粉碎：优化流畅度
+- 内核：文本现在不会被鼠标选中
 :::
 
 ::: timeline 4.00-Beta4
