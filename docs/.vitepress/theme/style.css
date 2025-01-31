@@ -136,4 +136,6 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
-
+.timeline-dot {
+  color: #000000 !important;
+ }
