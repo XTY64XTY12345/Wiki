@@ -8,8 +8,8 @@
 - &emsp;支持多插件加载
 - &emsp;插件信息在主页显示
 - &emsp;插件不再需要提供 TabID
-- Xdows Tools 插件：
-- &emsp;进程管理：信息框使用 TaskDialog 实现
+- &emsp;Xdows Tools 插件：
+- &emsp;&emsp;进程管理：信息框使用 TaskDialog 实现
 :::
 
 ::: timeline 4.00-Beta4
