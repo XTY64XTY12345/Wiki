@@ -10,6 +10,7 @@
 - &emsp;插件不再需要提供 TabID
 - &emsp;Xdows Tools 插件：
 - &emsp;&emsp;进程管理：信息框使用 TaskDialog 实现
+- &emsp;&emsp;文件粉碎：优化流畅度
 :::
 
 ::: timeline 4.00-Beta4
