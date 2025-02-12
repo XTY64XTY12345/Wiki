@@ -4,13 +4,13 @@
 
 ::: timeline 4.00-Beta5
 - Xdows Tools：
-- &emsp;插件API更改
-- &emsp;支持多插件加载
-- &emsp;插件信息在主页显示
-- &emsp;插件不再需要提供 TabID
-- &emsp;Xdows Tools 插件：
-- &emsp;&emsp;进程管理：信息框使用 TaskDialog 实现
-- &emsp;&emsp;文件粉碎：优化流畅度
+    - 插件API更改
+    - 支持多插件加载
+    - 插件信息在主页显示
+    - 插件不再需要提供 TabID
+    - Xdows Tools 插件：
+        - 进程管理：信息框使用 TaskDialog 实现
+        - 文件粉碎：优化流畅度
 - 内核：文本现在不会被鼠标选中
 :::
 
