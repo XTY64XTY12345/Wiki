@@ -2,6 +2,10 @@
 
 <br>
 
+::: timeline 4.00-Beta6
+- Xdows UI：更新部分组件呈现方式
+:::
+
 ::: timeline 4.00-Beta5
 - Xdows Tools：
     - 插件API更改
