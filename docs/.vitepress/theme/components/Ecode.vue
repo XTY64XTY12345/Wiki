@@ -1,4 +1,4 @@
-<script src="./Ecode/ecode.js" setup>
+<script setup lang="ts">
   
 interface Props {
     desc: string
@@ -6,10 +6,13 @@ interface Props {
 }
   
 const props = withDefaults(defineProps<Props>()， {
-    desc: ""，
-    code: ""，
+    desc: ''，
+    code: ''，
 })
 
+</script>
+
+<script src="./Ecode/ecode.js" setup lang="js">
 </script>
 
 <template>
