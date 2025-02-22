@@ -6,8 +6,8 @@ interface Props {
 }
   
 const props = withDefaults(defineProps<Props>()， {
-    desc: ''，
-    code: ''，
+    desc: ""，
+    code: ""，
 })
 
 </script>
