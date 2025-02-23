@@ -23,7 +23,7 @@ import "vitepress-markdown-timeline/dist/theme/index.css";
 //import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
 //import 'nprogress-v2/dist/index.css' // 进度条样式
 
-export 默认 {
+export Default {
   extends: DefaultTheme,
   
   enhanceApp({app  }) { 
