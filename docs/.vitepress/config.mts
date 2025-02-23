@@ -19,24 +19,6 @@ export default defineConfig({
     ],
   ],
   markdown: {
-    //易语言支持
-    languages: [
-      {
-        id: 'e',
-        scopeName: 'source.e',
-        patterns: [
-          {
-            match: '\\b(如果|否则|循环|子程序)\\b',
-            name: 'keyword.control.e'
-          },
-          {
-            match: '“[^”]*”',
-            name: 'string.quoted.e'
-          }
-        ],
-        aliases: ['epl']
-      }
-    ],
     image: {
       // 开启图片懒加载
       lazyLoading: true
