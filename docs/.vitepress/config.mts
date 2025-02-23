@@ -3,33 +3,33 @@ import timeline from "vitepress-markdown-timeline";
 import taskLists from 'markdown-it-task-checkbox'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Xdows Software",
-  logo: '/logo.svg',
-  description: "Xdows Software",
+  title: "Xdows Software"，
+  logo: '/logo.svg'，
+  description: "Xdows Software"，
   head: [
     // 改变title的图标
     [
-      'link',
+      'link'，
       {
-        rel: 'icon',
-        href: '/logo.svg',
-      },
-    ],
-  ],
+        rel: 'icon'，
+        href: '/logo.svg'，
+      }，
+    ]，
+  ]，
   markdown: {
     image: {
       // 开启图片懒加载
       lazyLoading: true
-    },
+    }，
     config: (md) => {
       // 创建 markdown-it 插件
-      md.use(taskLists, {
-        disabled: true,
-        divWrap: false,
-        divClass: 'checkbox',
-        idPrefix: 'cbx_',
-        ulClass: 'task-list',
-        liClass: 'task-list-item',
+      md.use(taskLists， {
+        disabled: true，
+        divWrap: false，
+        divClass: 'checkbox'，
+        idPrefix: 'cbx_'，
+        ulClass: 'task-list'，
+        liClass: 'task-list-item'，
       })
       md.use((md) => {
         md.use(timeline);
@@ -37,70 +37,70 @@ export default defineConfig({
         md.render = function (...args) {
 
           // 调用原始渲染
-          let defaultContent = defaultRender.apply(md, args)
+          let defaultContent = defaultRender.apply(md， args)
           // 替换内容
           defaultContent = defaultContent
-                .replace(/NOTE/g, '提醒')
-                .replace(/TIP/g, '建议')
-                .replace(/IMPORTANT/g, '重要')
-                .replace(/WARNING/g, '警告')
-                .replace(/CAUTION/g, '注意')
+                .replace(/NOTE/g， '提醒')
+                .replace(/TIP/g， '建议')
+                .replace(/IMPORTANT/g， '重要')
+                .replace(/WARNING/g， '警告')
+                .replace(/CAUTION/g， '注意')
           // 返回渲染的内容
           return defaultContent
         }
       })
     }，
     container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '信息',
+      tipLabel: '提示'，
+      warningLabel: '警告'，
+      dangerLabel: '危险'，
+      infoLabel: '信息'，
       detailsLabel: '详细信息'
     }
 
   }，
   sitemap: {
-    hostname: 'https://xty64xty.netlify.app',
-  },
+    hostname: 'https://xty64xty.netlify.app'，
+  }，
   themeConfig: {
     //本地搜索
     search: {
-      provider: "local",
+      provider: "local"，
       options: {
         locales: {
           root: {
             translations: {
               button: {
-                buttonText: "搜索文档",
-                buttonAriaLabel: "搜索文档",
-              },
+                buttonText: "搜索文档"，
+                buttonAriaLabel: "搜索文档"，
+              }，
               modal: {
-                noResultsText: "无法找到相关结果",
-                resetButtonTitle: "清除查询条件",
+                noResultsText: "无法找到相关结果"，
+                resetButtonTitle: "清除查询条件"，
                 footer: {
-                  selectText: "选择",
-                  navigateText: "切换",
-                  closeText: "关闭",
-                },
-              },
-            },
-          },
-        },
-      },
-    },
+                  selectText: "选择"，
+                  navigateText: "切换"，
+                  closeText: "关闭"，
+                }，
+              }，
+            }，
+          }，
+        }，
+      }，
+    }，
     nav: [
-      { text: '主页', link: '/' },
-      { text: '快速开始', link: '/Xdows-Security/get-started.md' }
-    ],
+      { text: '主页'， link: '/' }，
+      { text: '快速开始'， link: '/Xdows-Security/get-started.md' }
+    ]，
 
     sidebar: [
             {
-              text: 'Xdows Security 3.0',
-              collapsed: false,
+              text: 'Xdows Security 3.0'，
+              collapsed: false，
               items: [
-                { text: '快速开始', link: 'Xdows-Security/get-started' },
-                { text: '系统要求', link: 'Xdows-Security/system' },
-                { text: '主页功能', link: 'Xdows-Security/home-feature' },
+                { text: '快速开始'， link: 'Xdows-Security/get-started' }，
+                { text: '系统要求'， link: 'Xdows-Security/system' }，
+                { text: '主页功能'， link: 'Xdows-Security/home-feature' }，
                 { text: '杀毒功能', link: 'Xdows-Security/security-feature' },
                 { text: 'Xdows Tools', link: 'Xdows-Security/tools-feature' },
                 { text: '设置功能', link: 'Xdows-Security/settings-feature' },
