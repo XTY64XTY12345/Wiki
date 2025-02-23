@@ -14,14 +14,13 @@ Main.dll 通常是在 插件名\Files\Main.dll 文件
 
 不同的架构可能会导致运行**效率慢**或**崩溃**问题
 
-## 使用
 > [!IMPORTANT]
 > 以下DLL程序中的必须存在
 > 
 > 如果不存在，程序将会崩溃
 
 
-### SetUIHtml
+## SetUIHtml
 
 |    名称   |  返回类型 |注明                                    |
 | :-------- | :------- | :-------------------------------------- |
@@ -98,7 +97,7 @@ def set_ui_html() -> str:
 
 
 
-### SetUITitle
+## SetUITitle
 
 ![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-1.md.png)
 
@@ -140,7 +139,7 @@ def SetUITitle():
 
 :::
 
-### GetInfo
+## GetInfo
 
 ![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-2.md.png)
 
@@ -181,7 +180,7 @@ def GetInfo():
 ```
 :::
 
-### ScanFiles
+## ScanFiles
 
 > [!IMPORTANT]
 > 该函数将在之后启用
@@ -202,7 +201,7 @@ def GetInfo():
 | :--- | :--- | :----------------------------------- |
 | Path | Text |预扫描的文件名称。不可空，无需处理相关问题|
 
-### Html文件内调用
+## Html文件内调用
 
 你可以使用 Http 访问来调用DLL
 
