@@ -15,7 +15,7 @@ export default defineConfig({
       {
         rel: 'icon',
         href: '/logo.svg',
-      },
+      }，
     ],
   ],
   markdown: {
