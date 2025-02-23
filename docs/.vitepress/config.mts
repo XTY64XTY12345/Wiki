@@ -20,12 +20,21 @@ export default defineConfig({
   ],
   markdown: {
     //易语言支持
-    languages: [ // 直接注册自定义语言
+    languages: [
       {
         id: 'e',
         scopeName: 'source.e',
-        grammar: require('./public/e-grammar.json'), // 语法文件路径
-        aliases: ['epl', '易语言']
+        patterns: [
+          {
+            match: '\\b(如果|否则|循环|子程序)\\b',
+            name: 'keyword.control.e'
+          },
+          {
+            match: '“[^”]*”',
+            name: 'string.quoted.e'
+          }
+        ],
+        aliases: ['epl']
       }
     ],
     image: {
