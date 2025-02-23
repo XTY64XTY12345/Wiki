@@ -3,8 +3,6 @@ import timeline from "vitepress-markdown-timeline";
 import taskLists from 'markdown-it-task-checkbox'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-
-
   title: "Xdows Software",
   logo: '/logo.svg',
   description: "Xdows Software",
@@ -15,7 +13,7 @@ export default defineConfig({
       {
         rel: 'icon',
         href: '/logo.svg',
-      }，
+      },
     ],
   ],
   markdown: {
@@ -51,7 +49,7 @@ export default defineConfig({
           return defaultContent
         }
       })
-    },
+    }，
     container: {
       tipLabel: '提示',
       warningLabel: '警告',
@@ -60,7 +58,7 @@ export default defineConfig({
       detailsLabel: '详细信息'
     }
 
-  },
+  }，
   sitemap: {
     hostname: 'https://xty64xty.netlify.app',
   },
