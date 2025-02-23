@@ -23,12 +23,12 @@ import "vitepress-markdown-timeline/dist/theme/index.css";
 //import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
 //import 'nprogress-v2/dist/index.css' // 进度条样式
 
-export Default {
+export default {
   extends: DefaultTheme,
   
   enhanceApp({app  }) { 
     // 注册全局组件
-    app。component('Linkcard' , Linkcard) //链接卡片
+    app.component('Linkcard' , Linkcard) //链接卡片
 //      NProgress.configure({ showSpinner: false })
 //      router.onBeforeRouteChange = () => {
 //        NProgress.start() // 开始进度条
@@ -49,7 +49,7 @@ export Default {
       initZoom();
     });
     watch(
-      () => route。path,
+      () => route.path,
       () => nextTick(() => initZoom())
     );
 
@@ -67,11 +67,10 @@ export Default {
       {
         frontmatter, route
       },
-      //默认值为true,表示已启用,此参数可以忽略；
-      //如果为false,则表示未启用
+      //默认值为true，表示已启用，此参数可以忽略；
+      //如果为false，则表示未启用
       //您可以使用“comment:true”序言在页面上单独启用它
       true
     );
  }
 }
-
