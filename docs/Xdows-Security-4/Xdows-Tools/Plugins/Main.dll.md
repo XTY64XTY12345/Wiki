@@ -110,13 +110,35 @@ def set_ui_html() -> str:
 
 该函数没有参数
 
-### GetTabID
+::: code-group
 
-|    名称   |  返回类型 |注明                                                    |
-| :-------- | :------- | :------------------------------------------------------ |
-| GetTabID  |    Text  |该函数定义在 Xdows Tools 中的选择夹ID（不能和其它选择夹重复）|
+```c[C++/C]
+// 由 DeepSeek 翻译，可能需要进行修改
 
-该函数没有参数，如有参数则程序崩溃
+const char* SetUITitle() {
+ return "PluginsTitle";
+}
+
+```
+
+```py[Python]
+# 由 DeepSeek 翻译，可能需要进行修改
+
+def SetUITitle():
+ return "PluginsTitle"
+
+```
+
+```EPL[易语言]
+.版本 2
+
+.子程序 SetUITitle, 文本型, 公开
+
+返回 (“PluginsTitle”)
+
+```
+
+:::
 
 ### GetInfo
 
@@ -144,7 +166,7 @@ const char* GetInfo() {
 ```py[Python]
 # 由 DeepSeek 翻译，可能需要进行修改
 
-def get_info():
+def GetInfo():
  return "PluginsInfo"
 
 ```
