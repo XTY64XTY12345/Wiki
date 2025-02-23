@@ -26,31 +26,6 @@
 
 插件的本质是一个存放配置文件、程序文件和附件网页文件的目录
 
-::: file-tree
-
-- docs
-  - .vuepress
-    - config.ts
-  - page1.md
-  - README.md
-- theme  一个 **主题** 目录
-  - client
-    - components
-      - **Navbar.vue**
-    - composables
-      - useNavbar.ts
-    - styles
-      - navbar.css
-    - config.ts
-  - node/
-- package.json
-- pnpm-lock.yaml
-- .gitignore
-- README.md
-- …
-:::
-
-
 在目录内通常包含以下内容
 
  - Plugins  目录，存放插件本体，一般为**不可更改**状态
