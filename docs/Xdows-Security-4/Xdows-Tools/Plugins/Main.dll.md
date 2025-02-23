@@ -42,7 +42,7 @@ std::string SetUIHtml() {
     // 请把 "Name" 替换为插件名，把 "HtmlFiles" 替换为需要显示的 Html 文件名
     using namespace std::filesystem;
     auto path = current_path() / "Plugins\\Name\\Files\\HtmlFiles.html";
-    return std::string( std::istreambuf_iterator<char>(std::ifstream(path).rdbuf()),
+    return std::string(std::istreambuf_iterator<char>(std::ifstream(path).rdbuf()),
                         std::istreambuf_iterator<char>() );
 }
 ```
