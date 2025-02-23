@@ -26,7 +26,7 @@ export default defineConfig({
           const eLanguage = {
             id: 'e',
             scopeName: 'source.e',
-            grammar: require('/public/e-grammar.json'), // 自定义语法文件
+            grammar: require('/e-grammar.json'), // 自定义语法文件
             aliases: ['epl', '易语言']
           }
           return { languages: [eLanguage] }
