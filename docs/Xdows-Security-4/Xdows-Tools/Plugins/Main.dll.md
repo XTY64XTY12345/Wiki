@@ -29,6 +29,75 @@ Main.dll 通常是在 插件名\Files\Main.dll 文件
 
 该函数没有参数，如有参数则程序崩溃
 
+::: code-group
+
+```cpp[C++]
+// 由 DeepSeek 翻译，可能需要进行修改
+
+#include <string>
+#include <fstream>
+#include <filesystem>
+
+std::string SetUIHtml() {
+    // 请把 "Name" 替换为插件名，把 "HtmlFiles" 替换为需要显示的 Html 文件名
+    using namespace std::filesystem;
+    auto path = current_path() / "Plugins\\Name\\Files\\HtmlFiles.html";
+    return std::string( std::istreambuf_iterator<char>(std::ifstream(path).rdbuf()),
+                        std::istreambuf_iterator<char>() );
+}
+```
+
+```c[C]
+// 由 DeepSeek 翻译，可能需要进行修改
+
+#include <windows.h>
+#include <stdio.h>
+
+char* SetUIHtml() {
+    // 请把 "Name" 替换为插件名，把 "HtmlFiles" 替换为需要显示的 Html 文件名
+    char path[MAX_PATH];
+    sprintf(path, "%s\\Plugins\\Name\\Files\\HtmlFiles.html", 
+            GetModuleHandle(NULL) ? "" : ""); // 获取当前目录的巧妙方式
+    
+    HANDLE hFile = CreateFileA(path, GENERIC_READ, FILE_SHARE_READ, NULL,
+                              OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+    if (hFile == INVALID_HANDLE_VALUE) return NULL;
+
+    DWORD size = GetFileSize(hFile, NULL);
+    char* buf = (char*)malloc(size + 1);
+    ReadFile(hFile, buf, size, &size, NULL);
+    buf[size] = 0;
+    CloseHandle(hFile);
+    return buf;
+}
+
+/* 使用后需 free() 释放内存 */
+```
+
+```py[Python]
+# 由 DeepSeek 翻译，可能需要进行修改
+
+import os
+
+def set_ui_html() -> str:
+    # 请把 "Name" 替换为插件名，把 "HtmlFiles" 替换为需要显示的 Html 文件名，把 “utf-8” 替换为文件编码
+    file_path = os.path.join(os.getcwd(), "Plugins", "Name", "Files", "HtmlFiles.html")
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return f.read()
+```
+
+```EPL[易语言]
+.版本 2
+
+.子程序 SetUIHtml, 文本型, 公开
+
+‘ 请把 “Name” 替换为插件名，把 “HtmlFiles” 替换为需要显示的 Html 文件名
+返回 (到文本 (读入文件 (取运行目录 () ＋ “\Plugins\Name\Files\HtmlFiles.html”)))
+```
+:::
+
+
+
 ### SetUITitle
 
 ![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-1.md.png)
