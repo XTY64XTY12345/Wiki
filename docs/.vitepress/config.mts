@@ -20,19 +20,14 @@ export default defineConfig({
   ],
   markdown: {
     //易语言支持
-    shikiSetup(shiki) {
-      return shiki.getLoadedGrammar('e').then(grammar => {
-        if (!grammar) {
-          const eLanguage = {
-            id: 'e',
-            scopeName: 'source.e',
-            grammar: require('./e-grammar.json'), // 自定义语法文件
-            aliases: ['epl', '易语言']
-          }
-          return { languages: [eLanguage] }
-        }
-      })
-    },
+    languages: [ // 直接注册自定义语言
+      {
+        id: 'e',
+        scopeName: 'source.e',
+        grammar: require('./public/e-grammar.json'), // 语法文件路径
+        aliases: ['epl', '易语言']
+      }
+    ],
     image: {
       // 开启图片懒加载
       lazyLoading: true
