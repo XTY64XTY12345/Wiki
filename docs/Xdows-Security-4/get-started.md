@@ -11,6 +11,16 @@
 
 Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件。
 
+## 下载
+
+你现在可以下载测试版
+
+请先看 `README.txt` 再安装
+
+测试版仅供测试，后果自负
+
+<Linkcard url="/Setup.zip" title="下载 Xdows Security Beta" description="仅用于测试" logo="/logo.svg"/>
+
 ## 进度
 
  - [x] 项目建立
