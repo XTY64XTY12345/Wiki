@@ -4,7 +4,9 @@
 
 ::: timeline 4.00-Beta6
 - Xdows Tools：支持导入插件包
-- Xdows UI：更新部分组件呈现方式
+- Xdows UI
+    - 更新部分组件呈现方式
+    - 组件支持深色模式
 :::
 
 ::: timeline 4.00-Beta5
