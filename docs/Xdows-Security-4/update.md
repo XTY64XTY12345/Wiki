@@ -7,6 +7,9 @@
 - Xdows UI
     - 更新部分组件呈现方式
     - 组件支持深色模式
+    - 菜单后增加亚克力效果
+    - ![Update-Beta6-Menu](/Xdows-Security-4/PNG/Update-Beta6-Menu.png)
+    - 效果图
 :::
 
 ::: timeline 4.00-Beta5
