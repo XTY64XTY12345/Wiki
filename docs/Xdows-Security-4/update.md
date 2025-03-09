@@ -3,11 +3,15 @@
 <br>
 
 ::: timeline 4.00-Beta6
+- 页面：
+    - 修改侧边栏图标实现方式
+    - 更改 Xdows Tools 侧边栏图标
 - Xdows Tools：支持导入插件包
 - Xdows UI
     - 更新部分组件呈现方式
     - 组件支持深色模式
     - 菜单后增加亚克力效果![Update-Beta6-Menu](/Xdows-Security-4/PNG/Update-Beta6-Menu.png)效果图
+- 内核：自动更换组件深浅模式
 :::
 
 ::: timeline 4.00-Beta5
