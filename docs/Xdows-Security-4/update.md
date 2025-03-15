@@ -11,7 +11,7 @@
 - Xdows UI
     - 更新部分组件呈现方式
     - 组件支持深色模式
-    - `菜单` 组件后增加亚克力效果![Update-Beta6-Menu](/Xdows-Security-4/PNG/Update-Beta6-Menu.png)效果图
+    - 增加 `菜单` 组件背景亚克力效果![Update-Beta6-Menu](/Xdows-Security-4/PNG/Update-Beta6-Menu.png)效果图
     - 优化 `滑动按钮` 组件动画
 - Xdows Tools：支持导入插件包
 - 内核：自动更换组件深浅模式
