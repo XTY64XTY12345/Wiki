@@ -1,4 +1,4 @@
-# 快速开始
+# 快速开始 {#GetStarted}
 
 ![HomeUI](./PNG/HomeUI.png)
 
@@ -7,11 +7,11 @@
 来看看下一代的全新 Xdows Security 4.0
 
 
-## 简介
+## 简介 {#Info}
 
 Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件。
 
-## 下载
+## 下载 {#Download}
 
 你现在可以下载测试版
 
@@ -21,7 +21,7 @@ Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件�
 
 <Linkcard url="/Setup.zip" title="下载 Xdows Security Beta" description="本次公测版本：4.00-Beta5" logo="/logo.svg"/>
 
-## 进度
+## 进度 {#Progress}
 
  - [x] 项目建立
  - [x] 杀毒引擎
@@ -32,9 +32,9 @@ Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件�
  - [ ] 优化和补充功能
  - [ ] 发布正式版
 
-## 内核
+## 内核 {#Kernel}
 
-Xdows Security 的 3.0 和 4.0 都基于 Web 技术构建
+Xdows Security 的 3.0 和 4.0 都基于 Web 技术构建 UI ，但其与UI交互的方式有所不同
 
 ![FlowChart](./PNG/FlowChart.png)
 
