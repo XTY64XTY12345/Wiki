@@ -14,7 +14,8 @@ hero:
     - theme: alt
       text: 查看简介
       link: /Xdows-Security/get-started.md#简介
-  actions:
+    
+    
     - theme: brand
       text: 立即下载
       link: /Xdows-Security/get-started.md#下载
