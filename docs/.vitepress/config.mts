@@ -165,7 +165,7 @@ export default defineConfig({
             },
     ],
     footer: {
-      message: '反馈群：749412281',
+      //message: '反馈群：749412281',
       copyright: 'Xdows Software 版权所有'
     },
     editLink: {
