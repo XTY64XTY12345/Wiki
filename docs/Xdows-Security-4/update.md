@@ -15,9 +15,13 @@
 - Xdows UI
     - 更新部分组件呈现方式
     - 组件支持深色模式
+    - 添加 `信息框` 组件
     - 增加 `菜单` 组件背景亚克力效果![Update-Beta6-Menu](/Xdows-Security-4/PNG/Update-Beta6-Menu.png)效果图
     - 优化 `滑动按钮` 组件动画
 - Xdows Tools：支持导入插件包
+    - Xdows Tools 插件：
+        - 进程管理：信息框使用 `信息框` 组件实现
+        - 文件粉碎：优化流畅度
 - 内核：自动更换组件深浅模式
 :::
 
