@@ -93,6 +93,21 @@ def set_ui_html() -> str:
 ‘ 请把 “Name” 替换为插件名，把 “HtmlFiles” 替换为需要显示的 Html 文件名
 返回 (到文本 (读入文件 (取运行目录 () ＋ “\Plugins\Name\Files\HtmlFiles.html”)))
 ```
+
+```pseudo[伪代码]
+// 示例伪代码，可能需要根据实际需求调整
+
+函数 SetUIHtml 返回 文本型
+    定义 文件路径 = 当前目录 + "\Plugins\Name\Files\HtmlFiles.html"
+    打开 文件路径 为 只读
+    如果 文件存在
+        返回 读取文件内容
+    否则
+        返回 空文本
+    结束
+结束函数
+```
+
 :::
 
 
@@ -137,7 +152,17 @@ def SetUITitle():
 
 ```
 
+```pseudo[伪代码]
+// 示例伪代码，可能需要根据实际需求调整
+
+函数 SetUITitle 返回 文本型
+    返回 "PluginsTitle"
+结束函数
+```
+
 :::
+
+
 
 ## GetInfo
 
@@ -178,7 +203,18 @@ def GetInfo():
 返回 (“PluginsInfo”)
 
 ```
+
+```pseudo[伪代码]
+// 示例伪代码，可能需要根据实际需求调整
+
+函数 GetInfo 返回 文本型
+    返回 "PluginsInfo"
+结束函数
+```
+
 :::
+
+
 
 ## ScanFiles
 
