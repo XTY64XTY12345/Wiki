@@ -21,7 +21,7 @@ Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件�
 
 <Linkcard url="/Setup.zip" title="下载 Xdows Security Beta" description="本次公测版本：4.00-Beta5" logo="/logo.svg"/>
 
->[!NOTE] 获取最新源码的构建版？
+>[!NOTE] 获取最新源码的构建？
 >
 >请加入 [TG 构建频道](https://t.me/xdowssecurity) 来获取（Beta版本不保证稳定性）
 >
