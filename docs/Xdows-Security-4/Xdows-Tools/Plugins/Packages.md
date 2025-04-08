@@ -34,7 +34,16 @@ PluginName/
    - 压缩格式：zip
    - 压缩等级：Level 1（快速压缩，适合插件包）
 
-   ![截图1](./../../PNG/Pack-1.png)
+   ![截图1-NanaZip](./../../PNG/Pack-1.png)
+
+   以下是一些其它压缩软件的示例截图：
+
+   ::: details Windows-资源管理器
+      ![截图1-Windows-资源管理器](./../../PNG/Pack-1-1.png)
+   :::
+   ::: details WinRAR
+      ![截图1-WinRAR](./../../PNG/Pack-1-2.png)
+   :::
 
 3. 确认选项后，点击 `确定` 开始压缩。
 
@@ -75,7 +84,7 @@ Plugin.zip
 └── ...
 ```
 
-## 示例
+## 最终示例
 
 以下是一个以 Process 插件为例的压缩包内容截图：
 
