@@ -38,7 +38,7 @@ PluginName/
 
    以下是一些其它压缩软件的示例截图：
 
-   ::: details Windows-资源管理器
+   ::: details Windows 资源管理器
       ![截图1-Windows-资源管理器](./../../PNG/Pack-1-1.png)
    :::
    ::: details WinRAR
