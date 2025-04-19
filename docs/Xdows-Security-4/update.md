@@ -1,9 +1,11 @@
 # 更新日志
 
 <br>
+
 ::: timeline 4.00-Beta7
 - Xdows Tools：增加无法加载插件的错误弹窗
 :::
+
 ::: timeline 4.00-Beta6
 - 页面：
     - 修改侧边栏图标实现方式
