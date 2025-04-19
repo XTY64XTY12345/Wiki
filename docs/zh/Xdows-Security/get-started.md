@@ -3,7 +3,7 @@
 ::: tip
 Xdows Security 4.0 开始制作，该版本**进入维护阶段**
 
-[查看进度](/Xdows-Security-4/get-started.html)
+[查看进度](/zh/Xdows-Security-4/get-started.html)
 :::
 
 ::: danger 危险

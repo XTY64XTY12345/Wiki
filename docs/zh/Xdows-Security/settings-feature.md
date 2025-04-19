@@ -147,6 +147,6 @@ Install\Log\Run.txt
 在这感谢所有贡献了开源代码的开发者！
 :::
 
-[N-Version]:/Xdows-Security/version.html#N-版本
-[Pro-Version]:/Xdows-Security/version.html#pro-版本
+[N-Version]:/zh/Xdows-Security/version.html#N-版本
+[Pro-Version]:/zh/Xdows-Security/version.html#pro-版本
 [Miniblink]:https://miniblink.net/

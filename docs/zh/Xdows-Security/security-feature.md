@@ -22,4 +22,4 @@
 
 没什么技术含量，就不细讲了😊
 
-[scan]:/Xdows-Security/settings-feature.html#功能设置
+[scan]:/zh/Xdows-Security/settings-feature.html#功能设置
