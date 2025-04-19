@@ -63,5 +63,5 @@ Xdows Security 现已全部开源，具体开源地址如下：
 如果还有组件没开源请联系我们进行开源
 
 
-[help]: /Xdows-Security/help
-[sys]: /Xdows-Security/system
+[help]: /zh/Xdows-Security/help
+[sys]: /zh/Xdows-Security/system
