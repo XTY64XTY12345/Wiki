@@ -10,20 +10,20 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /Xdows-Security/get-started.md
+      link: ./Xdows-Security/get-started.md
     - theme: alt
       text: 查看简介
-      link: /Xdows-Security/get-started.md#简介
+      link: ./Xdows-Security/get-started.md#简介
     - theme: alt
       text: 立即下载
-      link: /Xdows-Security/get-started.md#下载
+      link: ./Xdows-Security/get-started.md#下载
     - theme: alt
       text: 下载Beta
-      link: /Xdows-Security-4/get-started.md#Download
+      link: ./Xdows-Security-4/get-started.md#Download
 features:
   - title: Xdows Security
     details: 旨在保护用户设备以及扫描威胁的应用程序。
-    link: /Xdows-Security/get-started.html#下载
+    link: ./Xdows-Security/get-started.html#下载
     linkText: 查看下载安装教程
   - title: 文件中转站
     details: 快速移动、复制、保存文件的软件。
@@ -33,9 +33,9 @@ features:
     details: 更加方便的使用Winget。
   - title: Xdows Cloud
     details: MD5 云端扫描引擎
-    link: /Xdows-Cloud/get-started.html
+    link: ./Xdows-Cloud/get-started.html
     linkText: 查看使用教程
   - title: Xdows Security Pro
     details: 更强大的 Xdows Security，暂未发布。
-    link: /Xdows-Security/version.html
+    link: ./Xdows-Security/version.html
     linkText: 查看相关内容
