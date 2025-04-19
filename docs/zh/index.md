@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Xdows Software"
   text: ""
-  tagline: Xdows Software Docs
+  tagline: 在这查看相关文档
   image: /logo.svg
   actions:
     - theme: brand
