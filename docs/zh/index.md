@@ -10,20 +10,20 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: ./Xdows-Security/get-started.md
+      link: ./Xdows-Security-4/get-started.md
     - theme: alt
       text: 查看简介
-      link: ./Xdows-Security/get-started.md#简介
+      link: ./Xdows-Security-4/get-started.md#简介
     - theme: alt
       text: 立即下载
-      link: ./Xdows-Security/get-started.md#下载
-    - theme: alt
-      text: 下载Beta
       link: ./Xdows-Security-4/get-started.md#Download
+    - theme: alt
+      text: 下载旧版
+      link: ./Xdows-Security/get-started.md#下载
 features:
   - title: Xdows Security
     details: 旨在保护用户设备以及扫描威胁的应用程序。
-    link: ./Xdows-Security/get-started.html#下载
+    link: ./Xdows-Security-4/get-started.html#Download
     linkText: 查看下载安装教程
   - title: 文件中转站
     details: 快速移动、复制、保存文件的软件。

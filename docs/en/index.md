@@ -20,5 +20,5 @@ hero:
 features:
   - title: Xdows Security
     details: Designed to protect user devices and scan for threats.
-    link: ./Xdows-Security-4/get-started.html#Info
+    link: ./Xdows-Security-4/get-started.html#Download
     linkText: View Installation Guide
