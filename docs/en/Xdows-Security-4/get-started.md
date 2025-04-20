@@ -20,7 +20,7 @@ The beta version is for testing purposes only, use at your own risk.
 
 <Linkcard url="/Setup.zip" title="Download Xdows Security Beta" description="Current public beta version: 4.00-Beta5" logo="/logo.svg"/>
 
->[!NOTE] Want to get the latest source build?
+>[!NOTE] Want to get the latest beta version?
 >
 >Join the [TG Build Channel](https://t.me/xdowssecurity) to get it (Beta versions are not guaranteed to be stable).
 >
