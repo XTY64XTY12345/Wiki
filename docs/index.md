@@ -1,3 +1,2 @@
-<script>
-window.location.href = "./en/";
-</script>
+## Loading...
+<meta http-equiv="refresh" content="0;url=./en/"> 

@@ -5,10 +5,10 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.2",
-    "vitepress-plugin-comment-with-giscus": "^1.1.15",
-    "vitepress-markdown-timeline": "^1.2.1",
     "markdown-it-task-checkbox": "^1.0.6",
-    "medium-zoom": "^1.1.0"
+    "medium-zoom": "^1.1.0",
+    "vitepress": "^2.0.0-alpha.4",
+    "vitepress-markdown-timeline": "^1.2.1",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }

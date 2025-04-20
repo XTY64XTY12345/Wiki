@@ -14,7 +14,7 @@ Main.dll 通常是在 插件名\Files\Main.dll 文件
 
 不同的架构可能会导致运行**效率慢**或**崩溃**问题
 
-> [!IMPORTANT]
+> [!IMPORTANT] 重要
 > 以下DLL程序中的必须存在
 > 
 > 如果不存在，程序将会崩溃
@@ -218,7 +218,7 @@ def GetInfo():
 
 ## ScanFiles
 
-> [!IMPORTANT]
+> [!IMPORTANT] 重要
 > 该函数将在之后启用
 > 
 > 为保证兼容新版本，建议编写
@@ -248,7 +248,7 @@ Http.send();
 
 ```
 
-> [!IMPORTANT]
+> [!IMPORTANT] 重要
 > 参数最多只能有 2 个
 >
 > 多余参数将会被忽略

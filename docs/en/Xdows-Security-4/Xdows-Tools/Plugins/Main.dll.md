@@ -14,7 +14,7 @@ When compiling the DLL, try to select the target architecture of Xdows Security 
 
 Different architectures may cause **slow performance** or **crash** issues.
 
-> [!IMPORTANT]
+> [!IMPORTANT] Important
 > The following functions must exist in the DLL.
 > 
 > If they do not exist, the program will crash.
@@ -84,17 +84,6 @@ def set_ui_html() -> str:
         return f.read()
 ```
 
-```EPL[易语言]
-// Translated by DeepSeek, may require modifications.
-
-.版本 2
-
-.子程序 SetUIHtml, 文本型, 公开
-
-// Replace "Name" with the plugin name and "HtmlFiles" with the Html file name to be displayed.
-返回 (到文本 (读入文件 (取运行目录 () ＋ “\Plugins\Name\Files\HtmlFiles.html”)))
-```
-
 ```pseudo[Pseudocode]
 // Example pseudocode, may need adjustments based on actual requirements.
 
@@ -140,15 +129,6 @@ def SetUITitle():
     return "PluginsTitle"
 ```
 
-```EPL[易语言]
-// Translated by DeepSeek, may require modifications.
-
-.版本 2
-
-.子程序 SetUITitle, 文本型, 公开
-
-返回 (“PluginsTitle”)
-```
 
 ```pseudo[Pseudocode]
 // Example pseudocode, may need adjustments based on actual requirements.
@@ -189,15 +169,6 @@ def GetInfo():
     return "PluginsInfo"
 ```
 
-```EPL[易语言]
-// Translated by DeepSeek, may require modifications.
-
-.版本 2
-
-.子程序 GetInfo, 文本型, 公开
-
-返回 (“PluginsInfo”)
-```
 
 ```pseudo[Pseudocode]
 // Example pseudocode, may need adjustments based on actual requirements.
@@ -211,7 +182,7 @@ End Function
 
 ## ScanFiles
 
-> [!IMPORTANT]
+> [!IMPORTANT] Important
 > This function will be enabled in future versions.
 > 
 > To ensure compatibility with new versions, it is recommended to implement it.
@@ -240,7 +211,7 @@ Http.open("GET", '/Function/PluginName-FunctionName/?Param1=Value1&Param2=Value2
 Http.send();
 ```
 
-> [!IMPORTANT]
+> [!IMPORTANT] Important
 > A maximum of 2 parameters is allowed.
 >
 > Extra parameters will be ignored.

@@ -20,11 +20,76 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       link: '/en/',
+      themeConfig:{
+        nav: [
+          { 
+            text: 'Home',
+            link: '/en/' ,
+          },
+          { 
+            text: 'Getting Started',
+            link: '/en/Xdows-Security-4/get-started.md',
+          },
+        ],
+        footer: {
+          copyright: 'Xdows Software All Rights Reserved'
+        },
+        editLink: {
+          pattern: 'https://github.com/XTY64XTY12345/Wiki/edit/main/docs/:path',
+          text: 'Edit this page',
+        },
+    
+        docFooter: {
+          prev: 'Prev',
+          next: 'Next'
+        },
+    
+        outline: {
+          label: 'Outline'
+        },
+    
+        lastUpdated: {
+          text: 'LastUpdated',
+        },
+      },
     },
     zh: {
       label: '简体中文',
       lang: 'zh', 
-      link: '/zh/'
+      link: '/zh/',
+      themeConfig:{
+        nav: [
+          { 
+            text: '主页',
+            link: '/zh/',
+          },
+          { 
+            text: '快速开始',
+            link: '/zh/Xdows-Security/get-started.md',
+          },
+        ],
+        footer: {
+          //message: '反馈群：749412281',
+          copyright: 'Xdows Software 版权所有'
+        },
+        editLink: {
+          pattern: 'https://github.com/XTY64XTY12345/Wiki/edit/main/docs/:path',
+          text: '在 GitHub 上编辑此页面',
+        },
+    
+        docFooter: {
+          prev: '上一页',
+          next: '下一页'
+        },
+    
+        outline: {
+          label: '页面导航'
+        },
+    
+        lastUpdated: {
+          text: '最后更新于',
+        },
+      },
     }
   },
   markdown: {
@@ -44,21 +109,6 @@ export default defineConfig({
       })
       md.use((md) => {
         md.use(timeline);
-        const defaultRender = md.render
-        md.render = function (...args) {
-
-          // 调用原始渲染
-          let defaultContent = defaultRender.apply(md, args)
-          // 替换内容
-          defaultContent = defaultContent
-                .replace(/NOTE/g, '提醒')
-                .replace(/TIP/g, '建议')
-                .replace(/IMPORTANT/g, '重要')
-                .replace(/WARNING/g, '警告')
-                .replace(/CAUTION/g, '注意')
-          // 返回渲染的内容
-          return defaultContent
-        }
       })
     },
   },
@@ -91,34 +141,6 @@ export default defineConfig({
         },
       },
     },
-    nav: [
-      {
-        text: '简体中文',
-        items: [
-          { 
-            text: '主页',
-            link: '/zh/',
-          },
-          { 
-            text: '快速开始',
-            link: '/zh/Xdows-Security-4/get-started.md',
-          },
-        ],
-      },
-      {
-        text: 'English',
-        items: [
-          { 
-            text: 'Home',
-            link: '/en/' ,
-          },
-          { 
-            text: 'Getting Started',
-            link: '/en/Xdows-Security-4/get-started.md',
-          },
-        ],
-      },
-    ],
     sidebar: {
       "/en/": [
         {
@@ -148,25 +170,8 @@ export default defineConfig({
       ],
       "/zh/": [
         {
-          text: 'Xdows Security 3.0',
-          collapsed: false,
-          items: [
-            { text: '快速开始', link: 'zh/Xdows-Security/get-started' },
-            { text: '系统要求', link: 'zh/Xdows-Security/system' },
-            { text: '主页功能', link: 'zh/Xdows-Security/home-feature' },
-            { text: '杀毒功能', link: 'zh/Xdows-Security/security-feature' },
-            { text: 'Xdows Tools', link: 'zh/Xdows-Security/tools-feature' },
-            { text: '设置功能', link: 'zh/Xdows-Security/settings-feature' },
-            { text: '版本计划', link: 'zh/Xdows-Security/version' },
-            { text: '常见问题', link: 'zh/Xdows-Security/help' },
-            { text: '更新日志', link: 'zh/Xdows-Security/update' },
-            { text: '代码授权', link: 'zh/Xdows-Security/code-authorization' },
-            { text: '开源说明', link: 'zh/Xdows-Security/Open-Source' },
-          ]
-        },
-        {
           text: 'Xdows Security 4.0',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '快速开始', link: 'zh/Xdows-Security-4/get-started' },
             {
@@ -186,6 +191,23 @@ export default defineConfig({
               ]
             },
             { text: '更新日志', link: 'zh/Xdows-Security-4/update' },
+          ]
+        },
+        {
+          text: 'Xdows Security 3.0',
+          collapsed: true,
+          items: [
+            { text: '快速开始', link: 'zh/Xdows-Security/get-started' },
+            { text: '系统要求', link: 'zh/Xdows-Security/system' },
+            { text: '主页功能', link: 'zh/Xdows-Security/home-feature' },
+            { text: '杀毒功能', link: 'zh/Xdows-Security/security-feature' },
+            { text: 'Xdows Tools', link: 'zh/Xdows-Security/tools-feature' },
+            { text: '设置功能', link: 'zh/Xdows-Security/settings-feature' },
+            { text: '版本计划', link: 'zh/Xdows-Security/version' },
+            { text: '常见问题', link: 'zh/Xdows-Security/help' },
+            { text: '更新日志', link: 'zh/Xdows-Security/update' },
+            { text: '代码授权', link: 'zh/Xdows-Security/code-authorization' },
+            { text: '开源说明', link: 'zh/Xdows-Security/Open-Source' },
           ]
         },
         {
@@ -217,31 +239,6 @@ export default defineConfig({
           ]
         },
       ],
-    },
-    footer: {
-      //message: '反馈群：749412281',
-      copyright: 'Xdows Software 版权所有'
-    },
-    editLink: {
-      pattern: 'https://github.com/XTY64XTY12345/Wiki/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
-    },
-
-    docFooter: {
-      prev: '上一页',
-      next: '下一页'
-    },
-
-    outline: {
-      label: '页面导航'
-    },
-
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
-      }
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/XTY64XTY12345' }

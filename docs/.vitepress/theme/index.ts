@@ -62,7 +62,6 @@ export default {
       categoryId: 'DIC_kwDOMWWais4CkG7I', //讨论分类ID
       mapping: 'pathname',
       inputPosition: 'bottom',
-      lang: 'zh-CN',
       }, 
       {
         frontmatter, route
