@@ -3,7 +3,10 @@
 <br>
 
 ::: timeline 4.00-Beta7
-- Xdows UI：增加手机版UI
+- Xdows UI：
+    - 增加手机版UI
+    - 内嵌图标字体
+    - 修改部分组件样式
 - Xdows Tools：增加无法加载插件的错误弹窗
 :::
 
