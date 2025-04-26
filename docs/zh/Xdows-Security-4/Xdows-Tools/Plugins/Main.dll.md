@@ -114,9 +114,6 @@ def set_ui_html() -> str:
 
 ## SetUITitle
 
-![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-1.md.png)
-
-（示例：图中红框部分即为该DLL返回的内容显示效果）
 
 |    名称    |  返回类型 |注明                               |
 | :--------- | :-------- | :-------------------------------- |
@@ -166,9 +163,6 @@ def SetUITitle():
 
 ## GetInfo
 
-![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-2.md.png)
-
-（示例：图中红框部分即为该DLL返回的内容显示效果）
 
 |    名称   |  返回类型 |注明                                                    |
 | :-------- | :------- | :------------------------------------------------------ |

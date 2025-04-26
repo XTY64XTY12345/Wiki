@@ -102,9 +102,6 @@ End Function
 
 ## SetUITitle
 
-![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-1.md.png)
-
-(Example: The red box in the image shows the content returned by this DLL.)
 
 |    Name     | Return Type | Description                          |
 | :---------- | :---------- | :----------------------------------- |
@@ -142,9 +139,6 @@ End Function
 
 ## GetInfo
 
-![XdowsToolsUI](./../../PNG/XdowsToolsUI-Main.dll-2.md.png)
-
-(Example: The red box in the image shows the content returned by this DLL.)
 
 |    Name    | Return Type | Description                          |
 | :--------- | :---------- | :----------------------------------- |
