@@ -175,6 +175,13 @@ export default defineConfig({
           items: [
             { text: '快速开始', link: 'zh/Xdows-Security-4/get-started' },
             {
+              text: '客户端',
+              collapsed: true,
+              items: [
+                  { text: 'Windows', link: 'zh/Xdows-Security-4/Client/Windows.md' },
+                ]
+              },
+            {
             text: 'Xdows Tools',
             collapsed: false,
             items: [
