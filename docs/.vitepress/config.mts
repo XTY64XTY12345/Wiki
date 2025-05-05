@@ -149,6 +149,13 @@ export default defineConfig({
           items: [
             { text: 'Getting Started', link: 'en/Xdows-Security-4/get-started' },
             {
+              text: 'Client',
+              collapsed: true,
+              items: [
+                  { text: 'Windows', link: 'zh/Xdows-Security-4/Client/Windows.md' },
+                ]
+            },
+            {
             text: 'Xdows Tools',
             collapsed: false,
             items: [
@@ -180,7 +187,7 @@ export default defineConfig({
               items: [
                   { text: 'Windows', link: 'zh/Xdows-Security-4/Client/Windows.md' },
                 ]
-              },
+            },
             {
             text: 'Xdows Tools',
             collapsed: false,
