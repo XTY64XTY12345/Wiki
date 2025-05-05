@@ -152,7 +152,7 @@ export default defineConfig({
               text: 'Client',
               collapsed: true,
               items: [
-                  { text: 'Windows', link: 'zh/Xdows-Security-4/Client/Windows.md' },
+                  { text: 'Windows', link: 'en/Xdows-Security-4/Client/Windows.md' },
                 ]
             },
             {
