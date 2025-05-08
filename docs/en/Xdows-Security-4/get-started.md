@@ -18,7 +18,7 @@ Please read `README.txt` before installation.
 
 The beta version is for testing purposes only, use at your own risk.
 
-<Linkcard url="/Setup.zip" title="Download Xdows Security Beta" description="Current public beta version: 4.00-Beta5" logo="/logo.svg"/>
+<Linkcard url="https://www.123865.com/s/1y1qVv-52LY" title="Download Xdows Security Beta" description="Current public beta version: 4.00-Beta7" logo="/logo.svg"/>
 
 >[!NOTE] Want to get the latest beta version?
 >
