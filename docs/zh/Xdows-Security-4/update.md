@@ -6,7 +6,7 @@
 - 页面：删除不需要的代码
 - 设置：
     - 增加 `常见问题` 页面
-    - 增加 `配色管理` 功能
+    - 增加 `配色管理` 功能![Update-Beta7-ColorDialog](/zh/Xdows-Security-4/PNG/Update-Beta7-ColorDialog.png)效果图
 - 客户端：初始功能
 - Xdows UI：
     - 增加手机版UI
