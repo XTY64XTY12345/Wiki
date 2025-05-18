@@ -23,21 +23,32 @@ import "vitepress-markdown-timeline/dist/theme/index.css";
 //import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
 //import 'nprogress-v2/dist/index.css' // 进度条样式
 
+import {NolebaseEnhancedReadabilitiesMenu,NolebaseEnhancedReadabilitiesScreenMenu,} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+
 export default {
   extends: DefaultTheme,
-  
-  enhanceApp({app  }) { 
-    // 注册全局组件
-    app.component('Linkcard' , Linkcard) //链接卡片
-//      NProgress.configure({ showSpinner: false })
-//      router.onBeforeRouteChange = () => {
-//        NProgress.start() // 开始进度条
-//      }
-//      router.onAfterRouteChanged = () => {
-//         NProgress.done() // 停止进度条
-//      }
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+       // 为较宽的屏幕的导航栏添加阅读增强菜单
+      'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
+       // 为较窄的屏幕（通常是小于 iPad Mini）添加阅读增强菜单
+      'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu), 
+     })
   },
- 
+  enhanceApp({ app }) {
+    // 注册全局组件
+    app.component('Linkcard', Linkcard); // 链接卡片
+    // NProgress.configure({ showSpinner: false })
+    // router.onBeforeRouteChange = () => {
+    //   NProgress.start() // 开始进度条
+    // }
+    // router.onAfterRouteChanged = () => {
+    //   NProgress.done() // 停止进度条
+    // }
+  },
+
   setup() {
     const route = useRoute();
     // 图片放大
