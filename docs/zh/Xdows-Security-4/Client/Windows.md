@@ -27,3 +27,38 @@
 > 如果你的颜色模式为 `深色模式`
 > 
 > 这个按钮将会被隐藏，请切换为 `浅色模式` 以继续
+
+## 客户端通信 {#Communication}
+
+在 `客户端` 的浏览器环境中可以通过 `Client` 类与其通信
+
+其中可以通过 `postMessage` 让执行客户端接口，相关调用方式如下：
+
+```js
+if (top.getBrowserType() == 'Client'){
+	Client.postMessage(
+		"函数名",
+		"参数1",
+        "参数2",
+        "参数3",
+        "..."
+	);
+};
+```
+
+### ChangeTheme {#ChangeTheme}
+
+此函数用于修改客户端窗口主题（相关颜色），相关示例：
+
+```js
+if (top.getBrowserType() == 'Client'){
+	Client.postMessage(
+		"ChangeTheme",
+		"参数1",// --Background-color 变量内容
+		"参数2",// --Text-color 变量内容
+		"参数3",// --Theme-color 变量内容
+		"参数4",// --Theme-Background-color 变量内容
+		"参数5" // light 或 dark
+	);
+};
+```

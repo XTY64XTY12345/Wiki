@@ -25,3 +25,38 @@ You can click the button next to the title bar icon (as shown below). After clic
 > If your color mode is set to `Dark Mode`
 >
 > This button will be hidden. Please switch to `Light Mode` to continue.
+
+## Client Communication {#Communication}
+
+In the browser environment of the `client`, you can communicate with it through the `Client` class.
+
+You can use `postMessage` to execute client interfaces. The usage is as follows:
+
+```js
+if (top.getBrowserType() == 'Client'){
+    Client.postMessage(
+        "FunctionName",
+        "Parameter1",
+        "Parameter2",
+        "Parameter3",
+        "..."
+    );
+};
+```
+
+### ChangeTheme {#ChangeTheme}
+
+This function is used to change the client window theme (related colors). Example:
+
+```js
+if (top.getBrowserType() == 'Client'){
+    Client.postMessage(
+        "ChangeTheme",
+        "Parameter1", // --Background-color variable value
+        "Parameter2", // --Text-color variable value
+        "Parameter3", // --Theme-color variable value
+        "Parameter4", // --Theme-Background-color variable value
+        "Parameter5"  // light or dark
+    );
+};
+```
