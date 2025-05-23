@@ -3,7 +3,9 @@
 <br>
 
 ::: timeline 4.00-Beta7
-- 页面：删除不需要的代码
+- 页面：
+    - 删除不需要的代码
+    - 点击设置按钮增加旋转动画![Update-Beta7-ColorDialog](/zh/Xdows-Security-4/PNG/Update-Beta7-SettingsButtonAnimation.gif)效果图
 - 设置：
     - 增加 `常见问题` 页面
     - 增加 `配色管理` 功能![Update-Beta7-ColorDialog](/zh/Xdows-Security-4/PNG/Update-Beta7-ColorDialog.png)效果图
