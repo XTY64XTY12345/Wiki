@@ -1,3 +1,15 @@
+# 公告
+
+::: danger 对于他人的嘲讽，我们再也忍无可忍
+一个做云盘和 PE，与我们毫无关系的团队对我、西瓜杀毒、CZK等人及其相关软件/产品进行谩骂和嘲讽，
+
+并且公然违反开源协议，盗用他人项目，甚至还能说出 “死了去葬墓 是不是也要把棺材的制作人也写上去” 这种毫无逻辑可言的话，
+
+面对没有证据的贬低和职责，我们已经忍无可忍了！
+
+在这里查看 [相关证据](https://xiguasystem.top/) 
+:::
+
 # 快速开始 {#GetStarted}
 
 ![HomeUI](./PNG/HomeUI.png)
@@ -20,11 +32,6 @@ Xdows Security 是旨在防御潜在威胁与检测病毒威胁的杀毒软件�
 测试版仅供测试，后果自负
 
 <Linkcard url="https://www.123865.com/s/1y1qVv-52LY" title="下载 Xdows Security Beta" description="本次公测版本：4.00-Beta7" logo="/logo.svg"/>
-
->[!NOTE] 获取最新的内测版？
->
->请加入 [QQ 群组](https://qm.qq.com/q/RLZQRF98sO) 来获取（Beta版本不保证稳定性）
->
 
 ## 进度 {#Progress}
 
