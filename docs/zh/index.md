@@ -9,22 +9,29 @@ hero:
   image: /logo.svg
   actions:
     - theme: brand
-      text: 快速开始
+      text: 快速开始 (4.1)
+      link: ./Xdows-Security-4.1/get-started.md
+    - theme: alt
+      text: 快速开始 (4.0)
       link: ./Xdows-Security-4/get-started.md
+    - theme: alt
+      text: 快速开始 (3.0)
+      link: ./Xdows-Security/get-started.md
     - theme: alt
       text: 查看简介
       link: ./Xdows-Security-4/get-started.md#简介
     - theme: alt
       text: 立即下载
       link: ./Xdows-Security-4/get-started.md#Download
-    - theme: alt
-      text: 下载旧版
-      link: ./Xdows-Security/get-started.md#下载
 features:
   - title: Xdows Security
     details: 旨在保护用户设备以及扫描威胁的应用程序。
     link: ./Xdows-Security-4/get-started.html#Download
     linkText: 查看下载安装教程
+  - title: Xdows Security 4.1
+    details: 4.1 版本的精简发行，修复若干 bug 并提升扫描稳定性。
+    link: ./Xdows-Security-4.1/get-started.html
+    linkText: 查看 4.1 快速上手
   - title: 文件中转站
     details: 快速移动、复制、保存文件的软件。
   - title: NTOS 系统

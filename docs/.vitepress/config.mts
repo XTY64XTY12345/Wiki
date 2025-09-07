@@ -43,7 +43,7 @@ export default defineConfig({
           },
           { 
             text: 'Getting Started',
-            link: '/en/Xdows-Security-4/get-started.md',
+            link: '/en/Xdows-Security-4.1/get-started.md',
           },
         ],
         footer: {
@@ -80,7 +80,7 @@ export default defineConfig({
           },
           { 
             text: '快速开始',
-            link: '/zh/Xdows-Security/get-started.md',
+            link: '/zh/Xdows-Security-4.1/get-started.md',
           },
         ],
         footer: {
@@ -159,11 +159,18 @@ export default defineConfig({
     sidebar: {
       "/en/": [
         {
-          text: 'Xdows Security',
+          text: 'Xdows Security 4.1',
           collapsed: false,
           items: [
-            { text: 'Getting Started', link: 'en/Xdows-Security-4/get-started' },
-            {
+            { text: 'Getting Started', link: 'en/Xdows-Security-4.1/get-started' },
+            { text: 'Changelog', link: 'en/Xdows-Security-4.1/update' },
+          ]
+        },
+        {
+          text: 'Xdows Security 4.0',
+          collapsed: true,
+          items: [
+            { text: 'Getting Started', link: 'en/Xdows-Security-4/get-started' },            {
               text: 'Client',
               collapsed: true,
               items: [
@@ -192,11 +199,19 @@ export default defineConfig({
       ],
       "/zh/": [
         {
-          text: 'Xdows Security 4.0',
+          text: 'Xdows Security 4.1',
           collapsed: false,
           items: [
+            { text: '快速开始', link: 'zh/Xdows-Security-4.1/get-started' },
+            { text: '更新日志', link: 'zh/Xdows-Security-4.1/update' },
+          ]
+        },
+        {
+          text: 'Xdows Security 4.0',
+          collapsed: true,
+          items: [
             { text: '快速开始', link: 'zh/Xdows-Security-4/get-started' },
-            {
+                        {
               text: '客户端',
               collapsed: true,
               items: [
