@@ -1,74 +1,48 @@
-# Quick Start
+ # Get Started {#GetStarted}
 
-This is the concise quick-start for Xdows Security 4.1. This release continues 4.0 design and focuses on compatibility and stability improvements.
+Take a look at the next-generation antivirus application built with `WinUI3` and `C#`.
 
 ## Introduction {#Info}
 
-Xdows Security 4.1 is a lightweight protection and scanning suite aimed at preserving core detection capabilities while reducing resource usage and improving compatibility.
+Xdows Security 4.1 is an antivirus application built with `WinUI3` and `C#`.
 
 ## Download {#Download}
 
-Download the 4.1 packages (nightly/stable) from the releases page.
+Version 4.1 packages (nightly and stable) are available on the releases page — please choose the appropriate build to download.
 
-Read the included `README.txt` before installation. Nightly/beta builds are for testing; use cautiously in production.
+Before installing, read the included `README.txt`. Nightly builds are provided for testing only; be cautious when installing them in production environments.
 
-<Linkcard url="https://github.com/XTY64XTY12345/Xdows-Security/releases/download/nightly/Xdows-Security-Signed.zip" title="Download Xdows Security Nightly" description="Ensure you can access GitHub" logo="/logo.svg"/>
+<Linkcard url="https://github.com/XTY64XTY12345/Xdows-Security/releases/download/nightly/Xdows-Security-Signed.zip"
+ title="Download Xdows Security Nightly" description="Please ensure you can access GitHub" logo="/logo.svg"/>
 
-## Kernel & Architecture {#Kernel}
+The linked build is the `x64` build. If you need another architecture, please compile it yourself.
 
-4.1 continues the WebUI-driven architecture used in 4.0: the front-end is built with web technologies while the kernel handles scanning and system callbacks (Protection module). Compared to 3.0, the 4.x series couples the UI and kernel more closely for better customizability.
+## Installation and Usage
 
-## Installation & Usage
+1. Download the ZIP archive and extract it.
+2. In Windows Settings → Developer options / Advanced settings enable Developer Mode and allow unsigned PowerShell scripts to run.
+    > [!NOTE]
+    > Different Windows versions may have different locations or names for these settings.
+3. Use PowerShell to run `install.ps1`.
+4. Wait for the installation to complete.
 
-1. Download the zip archive.
-2. In Settings → Developer/Advanced, enable Developer Mode and allow unsigned PowerShell scripts to run.
-> [!NOTE]
-> Location and names may vary between Windows versions.
-3. Run `install.ps1` with PowerShell.
-4. Wait for the installer to complete.
+## Scan Engines
 
-## Differences vs 4.0
+- Xdows Local: analyzes PE files using import/export tables and other methods; fully open-source.
+- SouXiaoEngine: scanning engine provided by `WorkingCat`; uses multiple analysis techniques; closed-source.
+- CzkCloud: cloud scanning service provided by `TianQiXingTu `Network Technology; because it requires a protected API key, this service is not supported in Nightly builds.
 
-- 4.1 is a refactor of 4.0 focused on stability and compatibility; for full feature set refer to the 4.0 docs.
+## Build and Run
 
-## Source references
+1. Environment requirements: Windows 10/11; install Visual Studio 2022 and the required workloads; install Git and ensure it can access GitHub.
+2. Clone the repository:
 
-- `Protection/` - protection callbacks
-- `ScanEngine/` - scanning & heuristics
-- `Xdows-Security/` - UI and application entry
+```sh
+git clone https://github.com/XTY64XTY12345/Xdows-Security
+```
 
-## Implementation (important)
+3. Open the solution `Xdows-Security.sln`.
+4. Set the target platform (x86/x64/ARM64 are available; x64 is recommended), then build and run the `Xdows-Security` project.
+5. Packaging/Publishing: the project uses MSIX publishing settings (`EnableMsixTooling` enabled in the csproj). When publishing, configure a signing certificate (the csproj contains example certificate hints).
 
-Note: Xdows-Security 4.1 is not a WebUI-based implementation — it is a WinUI3 + C# desktop application. Key points:
-
-- Target framework: .NET 8 (`net8.0-windows10.0.19041.0`).
-- UI: WinUI3 (Windows App SDK) using packages like `Microsoft.WindowsAppSDK` and `WinUIEx`. Windows use `AppWindow` with Mica/Acrylic backdrops.
-- Architecture: the main app `Xdows-Security` references `Protection` and `ScanEngine` subprojects and loads native dependencies such as `SouXiaoEngine.dll` for detection.
-
-Therefore, references to a WebUI or browser interaction are not applicable for 4.1 and this documentation treats 4.1 as a WinUI3/C# desktop implementation.
-
-## Build & Run (developers)
-
-1. Requirements: Windows 10/11 dev machine; install .NET 8 SDK and Visual Studio with Windows App SDK support.
-2. Open `Xdows-Security.sln` and restore NuGet packages (includes Windows App SDK).
-3. Choose platform (x86/x64/ARM64), build and run the `Xdows-Security` project.
-4. Packaging: MSIX packaging is supported (MSIX tooling enabled in csproj); configure a signing certificate for publishing.
-
-Tip: keep native dependencies like `SouXiaoEngine.dll` next to the project when building/running to avoid runtime errors.
-
-## Implementation (important)
-
-Note: Xdows-Security 4.1 is implemented as a native desktop application using WinUI3 and C#, not a WebUI. Key points:
-
-- Target framework: .NET 8 (project uses `net8.0-windows10.0.19041.0`).
-- UI: WinUI3 (Windows App SDK) with packages such as `Microsoft.WindowsAppSDK` and `WinUIEx`. Uses `AppWindow`, Mica/Acrylic system backdrops.
-- Architecture: main app `Xdows-Security` references `Protection` and `ScanEngine` subprojects and depends on native DLLs such as `SouXiaoEngine.dll` for detection.
-
-## Build & Run (for developers)
-
-1. Requirements: Windows 10/11 dev machine; install .NET 8 SDK and Visual Studio with Windows App SDK support.
-2. Open `Xdows-Security.sln`, restore NuGet packages (includes Windows App SDK). 
-3. Select platform (x86/x64/ARM64), build and run the `Xdows-Security` project.
-4. Packaging: the project supports MSIX packaging (MSIX tooling enabled in csproj); configure signing certificate for package publishing.
-
-Note: Keep native dependencies like `SouXiaoEngine.dll` alongside the project when building/running to avoid runtime errors.
+Note: keep local dependencies such as `SouXiaoEngine.dll` next to the project during build and run; otherwise runtime exceptions or build errors may occur.
