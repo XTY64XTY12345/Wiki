@@ -1,8 +1,15 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline"; 
 import taskLists from 'markdown-it-task-checkbox'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+
+export default withMermaid({
+  mermaid: {
+    mermaidPlugin: {
+      class: "mermaid my-class", // set additional css classes for parent container 
+    },
+  },
   title: "Xdows Software",
   description: "Xdows Software",
   head: [
@@ -11,7 +18,7 @@ export default defineConfig({
       'link',
       {
         rel: 'icon',
-        href: '/logo.svg',
+        href: '/logo.ico',
       },
     ],
   ],
@@ -125,6 +132,7 @@ export default defineConfig({
       md.use((md) => {
         md.use(timeline);
       })
+  // mermaid diagrams are initialized on the client via CDN script
     },
   },
   sitemap: {
@@ -164,6 +172,7 @@ export default defineConfig({
           items: [
             { text: 'Getting Started', link: 'en/Xdows-Security-4.1/get-started' },
             { text: 'Changelog', link: 'en/Xdows-Security-4.1/update' },
+            { text: 'Scan Logic', link: 'en/Xdows-Security-4.1/Scan-Logic' },
           ]
         },
         {
@@ -204,6 +213,7 @@ export default defineConfig({
           items: [
             { text: '快速开始', link: 'zh/Xdows-Security-4.1/get-started' },
             { text: '更新日志', link: 'zh/Xdows-Security-4.1/update' },
+            { text: '扫描逻辑', link: 'zh/Xdows-Security-4.1/Scan-Logic' },
           ]
         },
         {

@@ -6,7 +6,7 @@ hero:
   name: "Xdows Software"
   text: ""
   tagline: 在这查看相关文档
-  image: /logo.svg
+  image: /logo.ico
   actions:
     - theme: brand
       text: 快速开始 (4.1)

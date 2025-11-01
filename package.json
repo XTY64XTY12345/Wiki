@@ -5,11 +5,15 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.17.0",
-    "markdown-it-task-checkbox": "^1.0.6",
-    "medium-zoom": "^1.1.0",
-    "vitepress": "^2.0.0-alpha.4",
-    "vitepress-markdown-timeline": "^1.2.1",
-    "vitepress-plugin-comment-with-giscus": "^1.1.15"
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "*",
+    "markdown-it-task-checkbox": "*",
+    "medium-zoom": "*",
+    "vitepress": "^1.6.3",
+    "vitepress-markdown-timeline": "*",
+    "vitepress-plugin-comment-with-giscus": "*",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "dependencies": {
+    "mermaid": "^11.12.0"
   }
 }

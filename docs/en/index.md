@@ -6,7 +6,7 @@ hero:
   name: "Xdows Software"
   text: ""
   tagline: Xdows Software Documentation
-  image: /logo.svg
+  image: /logo.ico
   actions:
     - theme: brand
       text: Get Started (4.1)
