@@ -77,7 +77,8 @@ catch (Exception ex)
     LogText.AddNewLog(4, "Security - Failed", ex.Message);
 }
 ```
-
+> [!NOTE] Note
+> 
 > Exceptions affect only the **current file**; the queue continues.
 
 ## Performance & Threading {#Performance}

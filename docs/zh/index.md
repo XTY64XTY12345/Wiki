@@ -22,7 +22,7 @@ hero:
       link: ./Xdows-Security-4/get-started.md#简介
     - theme: alt
       text: 立即下载
-      link: ./Xdows-Security-4/get-started.md#Download
+      link: ./Xdows-Security-4.1/get-started.md#Download
 features:
   - title: Xdows Security
     details: 旨在保护用户设备以及扫描威胁的应用程序。

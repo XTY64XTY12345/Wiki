@@ -18,7 +18,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  
   }
   
   .medium-zoom-overlay {
@@ -56,7 +55,7 @@
 
 /* 引用块 */
 .vp-doc blockquote {
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 10px 16px;
   background-color: var(--vp-badge-danger-bg);
   position: relative;

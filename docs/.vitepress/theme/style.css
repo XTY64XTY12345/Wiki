@@ -42,16 +42,27 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
-
+html[class = 'dark']{
+  --vp-c-brand-1:  #65cafc;
+  --vp-c-brand-2:  #5ac7fd;
+  --vp-c-brand-3:  #4CC2FF;
+  --vp-button-brand-border: #3B3B3B;
+  --vp-c-default-1: #202020;
+  --vp-c-default-2: #2B2B2B;
+  --vp-c-default-3: #313131;
+}
+.brand{
+  color: var(--vp-c-default-3)!important;
+}
  :root {
-  --vp-c-default-1: var(--vp-c-gray-1);
-  --vp-c-default-2: var(--vp-c-gray-2);
-  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-1: #F3F3F3;
+  --vp-c-default-2: #FFFFFF;
+  --vp-c-default-3: #FBFBFC;
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-1: #0260b3;
+  --vp-c-brand-2: #0067c2dc;
+  --vp-c-brand-3: #0067C0;
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
@@ -75,7 +86,7 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-button-brand-border: transparent;
+  --vp-button-brand-border: #E5E5E5;
   --vp-button-brand-text: var(--vp-c-white);
   --vp-button-brand-bg: var(--vp-c-brand-3);
   --vp-button-brand-hover-border: transparent;
@@ -139,3 +150,45 @@
 .timeline-dot {
   color: var(--vp-c-text-1) !important;
  }
+
+.VPSidebarItem.is-active {
+  position: relative;
+  margin-left: -16px; 
+  padding-left: 16px;
+  background-color: color-mix(in srgb, var(--vp-c-default-3) 95%, black); /* 使用主题色 */
+  border-radius: 0 6px 6px 0;
+}
+
+.VPSidebarItem.is-active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 3px;
+  background-color: var(--vp-c-brand-1);
+  border-radius: 0 4px 4px 0;
+  z-index: 2;
+}
+
+.VPSidebarItem.is-active .text {
+  color: var(--vp-c-text-1)!important;
+  font-weight: 600;
+}
+.VPButton, .DocSearch-Button,.details.custom-block,
+.VPLink.link.pager-link, .search-bar, kbd{
+  border-radius: 4px!important;
+  font-weight:520!important;
+  box-shadow: 0 0 0 0 var(--vp-button-brand-border)!important;
+  border-top: 1px solid var(--vp-button-brand-border)!important;
+  border-left: 1px solid var(--vp-button-brand-border)!important;
+  border-right: 1px solid var(--vp-button-brand-border)!important;
+	border-bottom: 1.3px solid rgb(from var(--vp-button-brand-border) calc(r * 0.9) calc(g * 0.9) calc(b * 0.9) / alpha)!important;
+}
+.VPSwitch:hover{
+  border: 1px solid var(--vp-input-border-color)!important;
+  background-color: color-mix(in srgb, var(--vp-c-default-3) 92%, black)!important;
+}
+.details.custom-block{
+  background-color: var(--vp-c-default-3)!important;
+}

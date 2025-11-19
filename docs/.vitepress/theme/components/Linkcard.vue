@@ -29,8 +29,12 @@ const props = withDefaults(defineProps<Props>(), {
 <style>
 /* 卡片背景 */
 .linkcard {
-    background-color: var(--vp-c-bg-soft);
-    border-radius: 8px;
+    background-color: var(--vp-c-default-3);
+	border-top: 1px solid var(--vp-button-brand-border);
+    border-left: 1px solid var(--vp-button-brand-border);
+    border-right: 1px solid var(--vp-button-brand-border);
+	border-bottom: 1.3px solid rgb(from var(--vp-button-brand-border) calc(r * 0.9) calc(g * 0.9) calc(b * 0.9) / alpha);
+    border-radius: 4px;
     padding: 8px 16px 8px 8px;
     transition: color 0.5s, background-color 0.5s;
     margin-top: 15px;
@@ -38,7 +42,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 /* 卡片鼠标悬停 */
 .linkcard:hover {
-    background-color: var(--vp-c-yellow-soft);
+    background-color: var(--vp-c-default-1);
 }
 
 /* 链接样式 */
@@ -65,7 +69,9 @@ const props = withDefaults(defineProps<Props>(), {
 
 /* logo图片 */
 .linkcard .logo img {
-    width: 80px;
+    margin-top: 5px;
+    width: 60px;
+    margin-bottom: 10px;
     object-fit: contain;
 }
 

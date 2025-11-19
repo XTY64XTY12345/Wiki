@@ -24,7 +24,7 @@ Xdows Security 不会支持所有硬件/操作系统，因为这可能会导致�
 
 点击下面的卡片打开官网并点击“下载”按钮。
 
-<Linkcard url="https://xty64xty12345.github.io/xdows安全/download.html" title="下载 Xdows Security" description="https://xty64xty12345.github.io/xdows安全/download.html" logo="/logo.svg"/>
+<Linkcard url="https://xty64xty12345.github.io/xdows安全/download.html" title="下载 Xdows Security" description="https://xty64xty12345.github.io/xdows安全/download.html" logo="/logo.ico"/>
 
 ::: details 详细信息
 如果下载缓慢，可以使用如下方案：

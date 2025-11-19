@@ -80,7 +80,8 @@ catch (Exception ex)
     LogText.AddNewLog(4, "Security - Failed", ex.Message);
 }
 ```
-
+> [!NOTE] 笔记
+> 
 > 所有异常仅影响**当前文件**，不会中断整个队列。
 
 ## 性能与线程 {#Performance}

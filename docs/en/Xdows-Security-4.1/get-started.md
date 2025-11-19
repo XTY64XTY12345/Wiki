@@ -1,39 +1,41 @@
 # Quick Start {#GetStarted}
 
-Take a look at the next-generation antivirus built with **WinUI3** and **C#**.
+Check out the next-generation antivirus software built on `WinUI3` + `C#` technology
 
 ## Introduction {#Info}
 
-Xdows Security 4.1 is an antivirus solution built with `WinUI3` and `C#`.
+Xdows Security 4.1 is an antivirus software built on `WinUI3` + `C#` technology.
 
 ## Download {#Download}
 
-No direct download is available at the moment. Please join the [QQ Group](https://qm.qq.com/q/ybEtoc5rFe) to get the software.
+<Linkcard url="https://github.com/XTY64XTY12345/Xdows-Security/releases" title="Download Xdows Security Beta" description="https://github.com/XTY64XTY12345/Xdows-Security/releases" logo="/logo.ico"/>
 
-## Scan Engines {#Engine}
+## Scan Engine {#Engine}
 
-| Name            | Description                                                                 | Open Source |
-|-----------------|-----------------------------------------------------------------------------|-------------|
-| Xdows Local     | Analyzes PE files using import/export tables and more.                      | Yes         |
-| SouXiaoEngine   | Provided by `Mint`, supports multiple analysis methods.                     | No          |
-| Cloud Engine    | Cloud scanning service provided by `MEMZUAC`.                               | No          |
-| CzkCloud        | Cloud scanning service provided by `TianQiXingTu Network Tech`.             | No          |
+| Name | Description | Open Source |
+|-----|------|------|
+| Xdows Local | Analyzes PE files using import tables, export tables, and other methods | Fully open source |
+| SouXiaoEngine | Scanning engine provided by `Mint`, based on multiple analysis methods | Not open source |
+| Cloud-based Scan Engine | Cloud scanning service provided by `MEMZUAC` | Not open source |
+| CzkCloud | Cloud scanning service provided by `Tianqixingtu Network Technology` | Not open source |
 
 ::: tip Tip
-CzkCloud is not available in the Nightly build due to API key protection.
+ To protect the ApiKey, CzkCloud is not supported in the Nightly version
 :::
+
 
 ## Build and Run {#Build}
 
-1. Requirements:
+1. Environment requirements:
     1. Windows 10/11
-    2. Visual Studio 2022 or higher with required workloads
-    3. Git installed and able to access GitHub
-2. Clone the repository:
+    2. Install VS2022 or higher and related workloads
+    3. Install Git and ensure you can access GitHub normally.
+2. Clone the repository
 ```sh
 git clone https://github.com/XTY64XTY12345/Xdows-Security
 ```
-3. Open the solution `Xdows-Security.sln`.
-4. Set the target platform (x86/x64/ARM64, x64 recommended), then build and run the project `Xdows-Security`.
+3. Open with VS and build
 
-TIP: Make sure to keep local dependencies like `SouXiaoEngine.dll` next to the project, or you may encounter runtime or build errors.
+> [!NOTE] Unable to build
+> 
+> Because the SouXiao provider `Mint` does not open source its related content, simply remove references related to SouXiao

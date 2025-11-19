@@ -15,11 +15,17 @@
 
     /* Feature透明 */
     .VPFeature {
-        border: none;
-        box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
         background-color: transparent;
+    	border-top: 1px solid var(--vp-button-brand-border)!important;
+        border-left: 1px solid var(--vp-button-brand-border)!important;
+        border-right: 1px solid var(--vp-button-brand-border)!important;
+    	border-bottom: 1.3px solid rgb(from var(--vp-button-brand-border) calc(r * 0.9) calc(g * 0.9) calc(b * 0.9) / alpha)!important;
+        border-radius: 4px;
     }
+    .VPLink.link.no-icon.VPFeature:hover{
+          background-color: color-mix(in srgb, var(--vp-c-default-3) 95%, black); /* 使用主题色 */
 
+    }
     /* 文档页侧边栏顶部透明 */
     .curtain {
         background-color: rgba(255, 255, 255, 0);
