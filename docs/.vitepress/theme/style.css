@@ -175,8 +175,8 @@ html[class = 'dark']{
   color: var(--vp-c-text-1)!important;
   font-weight: 600;
 }
-.VPButton, .DocSearch-Button,.details.custom-block,
-.VPLink.link.pager-link, .search-bar, kbd{
+.copy,.VPButton, .DocSearch-Button,.details.custom-block,
+.VPLink.link.pager-link, .search-bar, kbd, .nolebase-ui-input-horizontal-option.active{
   border-radius: 4px!important;
   font-weight:520!important;
   box-shadow: 0 0 0 0 var(--vp-button-brand-border)!important;
@@ -190,5 +190,8 @@ html[class = 'dark']{
   background-color: color-mix(in srgb, var(--vp-c-default-3) 92%, black)!important;
 }
 .details.custom-block{
+  background-color: var(--vp-c-default-3)!important;
+}
+html[class = 'dark'] .DocSearch-Button,html[class = 'dark'] .VPFeature,.VPButton:not(.brand),.search-bar, kbd{
   background-color: var(--vp-c-default-3)!important;
 }
