@@ -38,4 +38,4 @@ git clone https://github.com/XTY64XTY12345/Xdows-Security
 
 > [!NOTE] Unable to build
 > 
-> Because the SouXiao provider `Mint` does not open source its related content, simply remove references related to SouXiao
+> Since the provider `Mint` of SouXiao does not open-source its related content, you may either remove the related content or contact `Mint` to obtain it.

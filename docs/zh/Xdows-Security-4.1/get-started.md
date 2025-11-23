@@ -45,4 +45,4 @@ git clone https://github.com/XTY64XTY12345/Xdows-Security
 
 > [!NOTE] 无法生成
 > 
-> 因为 SouXiao 提供方 `Mint` 不开源其相关内容，自行移除与 SouXiao 相关引用即可
+> 因为 SouXiao 提供方 `Mint` 不开源其相关内容，你可以移除相关内容或联系 `Mint` 获取相关内容
