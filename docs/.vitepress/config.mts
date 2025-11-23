@@ -173,7 +173,7 @@ export default withMermaid({
             { text: 'Getting Started', link: '/en/Xdows-Security-4.1/get-started' },
             { text: 'Changelog', link: '/en/Xdows-Security-4.1/update' },
             { text: 'Scan Logic', link: '/en/Xdows-Security-4.1/Scan-Logic' },
-            { text: '日志系统', link: '/en/Xdows-Security-4.1/Log-System' },
+            { text: 'Log System', link: '/en/Xdows-Security-4.1/Log-System' },
 
           ]
         },
