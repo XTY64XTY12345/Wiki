@@ -16,6 +16,7 @@ Xdows Security 4.1 is an antivirus software built on `WinUI3` + `C#` technology.
 |-----|------|------|
 | Xdows Local | Analyzes PE files using import tables, export tables, and other methods | Fully open source |
 | SouXiaoEngine | Scanning engine provided by `Mint`, based on multiple analysis methods | Not open source |
+| JiSuSafe AX Mode | Scanning engine provided by `FastStudio`| Not open source |
 | Cloud-based Scan Engine | Cloud scanning service provided by `MEMZUAC` | Not open source |
 | CzkCloud | Cloud scanning service provided by `Tianqixingtu Network Technology` | Not open source |
 

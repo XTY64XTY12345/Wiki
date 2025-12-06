@@ -44,6 +44,7 @@ sequenceDiagram
 async function scanFile(path: string): Promise<string | null> {
   if (useSouXiao)        return await souXiaoScan(path);
   if (useLocal)          return await localScan(path, deep, extra);
+  if (useJiSuSafeAXMode) return await AXScan(path, deep, extra);
   if (useCloud)          return await cloudScan(path);
   if (useCzkCloud)       return await czkCloudScan(path, apiKey);
   return null;                                       // 安全
