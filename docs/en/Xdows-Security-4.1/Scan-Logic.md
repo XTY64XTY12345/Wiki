@@ -39,13 +39,16 @@ sequenceDiagram
 
 ## Engine Priority {#EnginePriority}
 
-Async pseudo-code showing the invocation order:
-
-1. SouXiao engine if enabled
-2. Local engine (with Deep/Extra flags)
-3. Generic cloud engine
-4. Czk cloud engine (with API key)  
-Return `null` means the file is considered safe.
+```ts
+async function scanFile(path: string): Promise<string | null> {
+  if (useSouXiao)        return await souXiaoScan(path);
+  if (useLocal)          return await localScan(path, deep, extra);
+  if (useJiSuSafeAXMode) return await AXScan(path, deep, extra);
+  if (useCloud)          return await cloudScan(path);
+  if (useCzkCloud)       return await czkCloudScan(path, apiKey);
+  return null;                                       // safe
+}
+```
 
 ## Enumeration Strategy {#Enumeration}
 
