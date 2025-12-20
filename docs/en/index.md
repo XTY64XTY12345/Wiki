@@ -22,7 +22,7 @@ hero:
       link: ./Xdows-Security-4.1/get-started.md#Download
 features:
   - title: Xdows Security
-    details: Xdows Security 4.1 is an antivirus application built with `WinUI3` and `C#`.
+    details: Xdows Security 4.1 is an antivirus application built with WinUI3 and C#
     link: ./Xdows-Security-4.1/get-started.html#Download
     linkText: View Installation Guide
   - title: Xdows Security-4

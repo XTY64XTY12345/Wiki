@@ -26,12 +26,12 @@ hero:
 features:
   - title: Xdows Security
     details: 旨在保护用户设备以及扫描威胁的应用程序。
-    link: ./Xdows-Security-4/get-started.html#Download
+    link: ./Xdows-Security-4.1/get-started.html#Download
     linkText: 查看下载安装教程
-  - title: Xdows Security 4.1
-    details: 4.1 版本的精简发行，修复若干 bug 并提升扫描稳定性。
-    link: ./Xdows-Security-4.1/get-started.html
-    linkText: 查看 4.1 快速上手
+  - title: Xdows Security 4
+    details: 使用前端技术构建页面。
+    link: ./Xdows-Security-4/get-started.html#Download
+    linkText: 查看 4.0 快速上手
   - title: 文件中转站
     details: 快速移动、复制、保存文件的软件。
   - title: NTOS 系统
