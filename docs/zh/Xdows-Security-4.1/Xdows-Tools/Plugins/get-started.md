@@ -79,10 +79,6 @@ namespace PluginFramework
 │  PluginFramework.dll
 │  PluginFramework.pdb
 │  PluginFramework.pri
-│
-└─PluginFramework
-        PageBase.xaml
-        PageBase.xbf
 
 ```
 接下来，转到 Xdows Security 根目录，进入 `Plugin` (不是 `Plugins`，如果没有请新建)
@@ -115,10 +111,6 @@ Plugin
     │  PluginFramework.dll
     │  PluginFramework.pdb
     │  PluginFramework.pri
-    │
-    └─PluginFramework
-            PageBase.xaml
-            PageBase.xbf
 ```
 
 接下来启动 Xdows Security，你将看到你的插件出现在 Xdows Security 中!
@@ -165,9 +157,4 @@ Plugin
 │  PluginFramework.dll
 │  PluginFramework.pdb
 │  PluginFramework.pri
-│
-└─PluginFramework
-        PageBase.xaml
-        PageBase.xbf
-
 ```
