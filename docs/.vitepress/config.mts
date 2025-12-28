@@ -226,6 +226,7 @@ export default withMermaid({
                     collapsed: false,
                     items: [
                             { text: '快速开始', link: '/zh/Xdows-Security-4.1/Xdows-Tools/Plugins/get-started.md' },
+                            { text: '插件信息', link: '/zh/Xdows-Security-4.1/Xdows-Tools/Plugins/information.md' },
                     ]
                   },
                 ]
