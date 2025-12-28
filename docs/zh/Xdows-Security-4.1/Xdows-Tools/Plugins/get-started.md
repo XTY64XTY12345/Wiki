@@ -25,8 +25,6 @@ namespace PluginFramework
 {
     public partial class Plugin
     {
-        public virtual ViewModelBase ViewModelBase { get; set; }
-
         public virtual void Load()
         {
             // Loading logic for the plugin
