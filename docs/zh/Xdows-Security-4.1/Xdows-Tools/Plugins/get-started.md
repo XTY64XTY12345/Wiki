@@ -11,7 +11,7 @@
 ### 创建项目
 
 1. 新建一个 `WinUI3 不打包 类库` 项目，名为 `PluginFramework`
-> [!TIP] 如果不是 `PluginFramework`
+> [!TIP] 如果不是 PluginFramework
 > 
 > 插件加载器只会加载文件名为 `PluginFramework.dll` 的文件
 > 所以如果不是 `PluginFramework` 的话需要在生成之后改名
